@@ -15,7 +15,7 @@ Quy trình ICONIX có thể tóm tắt bằng chữ như sau:
 1. Để viết code được chúng ta cần sơ đồ lớp (class diagram)
 2. Để xây dựng được sơ đồ lớp chúng ta cần 03 thông tin: tên lớp, thuộc tính, và phương thức.
 
-- Để tìm tên và thuộc tính chúng ta dựa và sơ đồ miền (domain model) và sơ đồ mạnh mẽ (robustness diagram).
+- Để tìm tên và thuộc tính chúng ta dựa và sơ đồ miền [domain model](/Chapter-1-Domain-Model/) và sơ đồ mạnh mẽ (robustness diagram).
 - Để tìm được các phương thức chúng ta dựa vào sơ đồ trình tự. Để xây dựng được sơ đồ trình tự chúng ta cần dựa vào sơ đồ mạnh mẽ.
 
 4. Để xây dựng được sơ đồ mạnh mẽ (robustness diagram), chúng ta cần dựa vào đặc tả use case
