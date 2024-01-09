@@ -11,5 +11,22 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
 
 2. Hiệu sách phải có khả năng bán **sách** với các **đơn đặt hàng** được chấp nhận qua **Internet**.
 3. Người dùng phải thêm được sách vào **giỏ hàng trực tuyến**, trước khi **thanh toán**
-- Tương tự, người dùng phải có khả năng xoá mặt hàng ra khỏi giỏ hàng
-hàng
+- Tương tự, người dùng phải có khả năng xoá **mặt hàng** ra khỏi giỏ hàng
+4. Người dùng phải có khả năng duy trì một **danh sách mong muốn** các sách mà họ muốn mua sau này
+5. Người dùng phải có khả năng huỷ hoá đơn trước khi nó được vận chuyển
+6. Người dùng phải có khả năng thanh toán qua **thẻ tín dụng** hoặc **hoá đơn mua**
+7. Người dùng phải có khả năng trả sách
+8. Cửa hàng phải có khả năng nhúng vào các trang web **đối tác liên kết** sử dụng **danh mục nhỏ** được trích xuất từ **danh mục lớn** trong **cơ sở dữ liệu**
+- Danh mục nhỏ cần được định nghĩa dưới dạng XML
+- **Hệ thống vận chuyển** sẽ được thực hiện bởi Amazon Web Services
+9. Người dùng phải có khả năng tạo **tài khoản khách hàng** để hệ thống có thể lưu thông tin chi tiết về người dùng (ví dụ: tên, địa chỉ, thông tin chi tiết thẻ tín dụng,,) khi đăng nhập
+  - Hệ thống cần phải duy trì **danh sách các tài khoản** trong cơ sở dữ liệu trung tâm
+  - Khi người dùng đăng nhập, **mật khẩu** của họ cần phải khớp với mật khẩu trong **danh sách tài khoản chính**.
+10. Người dùng phải có khả năng tìm kiếm sách theo **các phương thức tìm kiếm** khác nhau - **tiêu đề, tác giả, từ khoá **hoặc **danh mục** - và sau đó xem **chi tiết sách**
+11. Người dùng phải có khả năng đăng các nhận xét của các sách ưa thích; **các nhận xét** cần phải xuất hiện trong màn hình chi tiết sách. Nhận xét cần có **đánh giá của khách hàng** (1-5) - đánh giá này thông thường sẽ được hiển thị cùng với tiêu đề sách trong **danh sách các sách**
+- **Nhận xét sách** cần phải được quản lý - phải được đánh dấu "OK" bởi nhân viên trước khi hiển thị lên website
+- Những nhận xét dài cần phải được làm ngắn gọn lại trên trang chi tiết sách; **khách hàng** có thể bấm vào xem nhận xét đầy đủ để xem trên trang web khác
+12.
+
+    
+    
