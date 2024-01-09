@@ -37,10 +37,10 @@ Chúng ta để ý tất cả những từ bôi đậm - đó là các danh từ
 
 Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 
-- Hiệu sách [1]
+- ~~Hiệu sách [1]~~
 - Sách [2]
 - Đặt hàng [3]
-- Internet [4]
+- ~~Internet [4]~~
 - Giỏ hàng [5]
 - Thanh toán [6]
 - Mặt hàng [7]
@@ -49,30 +49,30 @@ Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 - Đơn đặt hàng [10]
 - Đối tác liên kết [11]
 - Danh mục sách nhỏ [12]
-- Danh mục chính [13]
+- ~~Danh mục chính [13]~~
 - Cơ sở dữ liệu [14]
 - Hệ thống vận chuyển [15]
 - Tài khoản khách hàng [16]
-- Danh sách tài khoản [17]
-- Mật khẩu [18]
+- ~~Danh sách tài khoản [17]~~
+- ~~Mật khẩu [18]~~
 - Danh sách tài khoản chính [19]
 - Phương pháp tìm kiếm [20]
-- Tiêu đề [21]
+- ~~Tiêu đề [21]~~
 - Tác giả [22]
-- Từ khóa [23]
+- ~~Từ khóa [23]~~
 - Danh mục [24]
-- Chi tiết sách [25]
-- Đánh giá bình luận [26]
+- ~~Chi tiết sách [25]~~
+- ~~Đánh giá bình luận [26]~~
 - Đánh giá của khách hàng [27]
 - Danh sách các sách [28]
 - Đánh giá sách [29]
-- Khách hàng [30]
+- ~~Khách hàng [30]~~
 - Đánh giá biên tập [31]
-- Người bán [32]
-- Danh mục sách [33]
+- ~~Người bán [32]~~
+- ~~Danh mục sách [33]~~
 - Danh mục sách chính [34]
 - Kết quả tìm kiếm [35]
-- Tài khoản người dùng [36]
+- ~~Tài khoản người dùng [36]~~
 
 Chúng ta tiến hành tinh chỉnh lại danh sách dựa trên một số các tiêu chí sau:
 - Loại bỏ các danh từ quá rộng
