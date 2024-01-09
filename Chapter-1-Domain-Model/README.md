@@ -22,13 +22,13 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
   - Hệ thống cần phải duy trì **danh sách tài khoản** [17] trong cơ sở dữ liệu trung tâm
   - Khi người dùng đăng nhập, **mật khẩu** [18] của họ cần phải khớp với mật khẩu trong **danh sách tài khoản chính** [19].
 10. Người dùng phải có khả năng tìm kiếm sách theo các **phương pháp tìm kiếm** [20] khác nhau như **tiêu đề** [21], **tác giả** [22], **từ khoá** [23] hoặc **danh mục** [24] - và sau đó xem **chi tiết sách** [25]
-11. Người dùng phải có khả năng đăng các nhận xét của các sách ưa thích; **các nhận xét** cần phải xuất hiện trong màn hình chi tiết sách. Nhận xét cần có **đánh giá của khách hàng** (1-5) - đánh giá này thông thường sẽ được hiển thị cùng với tiêu đề sách trong **danh sách các sách**
-- **Nhận xét sách** cần phải được quản lý - phải được đánh dấu "OK" bởi nhân viên trước khi hiển thị lên website
-- Những nhận xét dài cần phải được làm ngắn gọn lại trên trang chi tiết sách; **khách hàng** có thể bấm vào xem nhận xét đầy đủ để xem trên trang web khác
-12. Hệ thống phải cho phép nhân viên **nhận xét biên tập**. Nhận xét biên tập phải xuất hiện trên trang chi tiết sách.
-13. Cửa hàng cho phép **người bán** (bên ngoài hệ thống) thêm **danh mục sách** của họ. Danh mục sách này sẽ được thêm vào **danh mục sách chính** để có thể hiển thị trên trang tìm kiếm
+11. Người dùng phải có khả năng đăng các nhận xét của các sách ưa thích; **đánh giá bình luận** [26] cần phải xuất hiện trong màn hình chi tiết sách. Nhận xét cần có **đánh giá của khách hàng** [27] (1-5) - đánh giá này thông thường sẽ được hiển thị cùng với tiêu đề sách trong **danh sách các sách** [28]
+- **Đánh giá sách** [29] cần phải được quản lý - phải được đánh dấu "OK" bởi nhân viên trước khi hiển thị lên website
+- Những nhận xét dài cần phải được làm ngắn gọn lại trên trang chi tiết sách; **khách hàng** [30] có thể bấm vào xem nhận xét đầy đủ để xem trên trang web khác
+12. Hệ thống phải cho phép nhân viên **đánh giá biên tập** [31]. Nhận xét biên tập phải xuất hiện trên trang chi tiết sách.
+13. Cửa hàng cho phép **người bán** [32] (bên ngoài hệ thống) thêm **danh mục sách** [33] của họ. Danh mục sách này sẽ được thêm vào **danh mục sách chính** [34] để có thể hiển thị trên **trang kết quả tìm kiếm** [35]
 14. Hiệu sách phải có khả năng mở rộng, với những yêu cầu cụ thể sau:
-  - Hiệu sách phải có khả năng duy trì **tài khoản người dùng** đến 100,000 khách hàng trong 6 tháng đầu tiên và sau đó là 1000,000 tài khoản
+  - Hiệu sách phải có khả năng duy trì **tài khoản người dùng** [36] đến 100,000 khách hàng trong 6 tháng đầu tiên và sau đó là 1000,000 tài khoản
   - Hiệu sách phải có khả năng đáp ứng 1,000 lượt truy cập đồng thời (10,000 sau 6 tháng)
   - Hiệu sách phải có khả năng đáp ứng 100 truy vấn trên một phút (1,000 phút sau 6 tháng)
   - Hiệu sách phải có khả năng đáp ứng xử lý 100 đơn hàng trên một giờ (1,000 đơn hàng/giờ sau 6 tháng)
@@ -39,38 +39,38 @@ Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 - Đối tác liên kết [11]
 - Tác giả [22]
 - Sách [2]
-- Danh mục sách
-- Chi tiết sách
-- Danh sách
-- Đánh giá sách
+- Danh mục sách [33]
+- Chi tiết sách [25]
+- Danh sách các sách [28]
+- Đánh giá sách [29]
 - Hiệu sách [1]
 - Danh mục [24]
 - Thanh toán [6]
 - Thẻ tín dụng [9]
-- Khách hàng
+- Khách hàng [30]
 - Tài khoản khách hàng [16]
-- Đánh giá của khách hàng
+- Đánh giá của khách hàng [27]
 - Cơ sở dữ liệu [14]
-- Đánh giá biên tập
+- Đánh giá biên tập [31]
 - Internet [4]
 - Mặt hàng [7]
 - Từ khóa [23]
 - Danh sách tài khoản [17]
 - Danh sách tài khoản chính [19]
-- Danh mục sách Master
+- Danh mục sách chính [34]
 - Danh mục chính [13]
 - Danh mục nhỏ [12]
-- Đặt hàng
+- Đặt hàng [3]
 - Mật khẩu [18]
 - Đơn đặt hàng [10]
-- Đánh giá bình luận
+- Đánh giá bình luận [26]
 - Phương pháp tìm kiếm [20]
-- Kết quả tìm kiếm
-- Người bán
+- Kết quả tìm kiếm [35]
+- Người bán [32]
 - Hệ thống vận chuyển [15]
 - Giỏ hàng [5]
 - Tiêu đề [21]
-- Tài khoản người dùng
+- Tài khoản người dùng [36]
 - Danh sách mong muốn [8]
 
 
