@@ -92,3 +92,28 @@ Dựa vào các tiêu chí trên ta tiến hành phân tích như sau:
 - Thuật ngữ "Chi tiết sách" [25] và "Sách" [2] bị trùng lặp. Ta giữ lại "Sách" [2] vì nó mang nhiều ý nghĩa đối tượng hơn
 - Thuật ngữ "Mặt hàng" (item) [7] là khá mơ hồ, chúng ta đổi tên lại thành "Mục hàng" (line item) [7] cho rõ nghĩa
 - Thuật ngữ "Hiệu sách" [1] khá rộng nên chúng ta sẽ bỏ.
+
+Sau khi tinh tỉnh ta còn lại một danh sách các ứng viên đối tượng miền như sau:
+1. Sách [2]
+2. Đặt hàng [3]
+3. Giỏ hàng [5]
+4. Thanh toán [6]
+5. Mặt hàng [7]
+6. Danh sách mong muốn [8]
+7. Thẻ tín dụng [9]
+8. Đơn đặt hàng [10]
+9. Đối tác liên kết [11]
+10. Danh mục sách nhỏ [12]
+11. Cơ sở dữ liệu [14]
+12. Hệ thống vận chuyển [15]
+13. Tài khoản khách hàng [16]
+14. Danh sách tài khoản chính [19]
+15. Phương pháp tìm kiếm [20]
+16. Tác giả [22]
+17. Danh mục [24]
+17. Đánh giá của khách hàng [27]
+19. Danh sách các sách [28]
+20. Đánh giá sách [29]
+21. Đánh giá biên tập [31]
+22. Danh mục sách chính [34]
+23. Kết quả tìm kiếm [35]
