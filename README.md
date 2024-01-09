@@ -5,6 +5,7 @@ Các tài liệu về phương pháp phát triển phần mềm hướng đối 
 Trước khi đi chi tiết vào một vấn đề chúng ta cần phải nắm được các bước cụ thể mà chúng ta định làm là như thế nào? đầu vào chúng ta có gì ở mỗi bước và đầu ra chúng ta cung cấp cho các bước tiếp theo là gì. Có nhiều quy trình phát triển phần mềm như quy trình thác nước, xoắn ốc, lặp, gia tăng, Agile, RUP...Mỗi mô hình đều có những ưu điểm và nhược điểm riêng, không mô hình nào là "kinh thánh" chung. Khoá học này sẽ bám theo quy trình mà ít được nhắc đến trong các bài viết phổ biến. Đó là quy trình ICONIX.
 
 Về cơ bản quy trình ICONIX được minh hoạ như hình dưới.
+![Quy trình ICONIX](/images/ICONIX.png)
 
 Cái hay nhất của quy trình ICONIX chính là việc trả lời câu hỏi **"Chúng ta viết code từ use case như thế nào?"** 
 Cách tiếp cận để trả lời câu hỏi trên của ICONIX rất đơn giản: Tìm hiểu đầu vào và đầu ra của code và use case, truy vết để tìm mối liên hệ giữa chúng
