@@ -39,7 +39,7 @@ Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 
 - ~~Hiệu sách [1]~~
 - Sách [2]
-- Đặt hàng [3]
+- Đơn hàng [3]
 - ~~Internet [4]~~
 - Giỏ hàng [5]
 - Thanh toán [6]
@@ -95,10 +95,10 @@ Dựa vào các tiêu chí trên ta tiến hành phân tích như sau:
 
 Sau khi tinh tỉnh ta còn lại một danh sách các ứng viên đối tượng miền như sau:
 1. Sách [2]
-2. Đặt hàng [3]
+2. Đơn hàng [3]
 3. Giỏ hàng [5]
 4. Thanh toán [6]
-5. Mặt hàng [7]
+5. Mục hàng [7]
 6. Danh sách mong muốn [8]
 7. Thẻ tín dụng [9]
 8. Đơn đặt hàng [10]
@@ -117,3 +117,7 @@ Sau khi tinh tỉnh ta còn lại một danh sách các ứng viên đối tư�
 21. Đánh giá biên tập [31]
 22. Danh mục sách chính [34]
 23. Kết quả tìm kiếm [35]
+
+Chúng ta có sơ đồ miền sơ bộ như sau:
+
+![Sơ đồ miền sơ bôj](/images/Initial-Domain-Model.png)
