@@ -48,7 +48,7 @@ Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 - Thẻ tín dụng [9]
 - Đơn đặt hàng [10]
 - Đối tác liên kết [11]
-- Danh mục nhỏ [12]
+- Danh mục sách nhỏ [12]
 - Danh mục chính [13]
 - Cơ sở dữ liệu [14]
 - Hệ thống vận chuyển [15]
@@ -84,5 +84,11 @@ Dựa vào các tiêu chí trên ta tiến hành phân tích như sau:
 - Thuật ngữ Khách hàng [30], Người bán [32] bị loại bỏ do nằm ngoài hệ thống. Chúng ta sẽ sử dụng danh từ này là các tác nhân trong biểu dồ use case
 - Thuật ngữ "Tài khoản người dùng" [36] "Tài khoản khách hàng" [16] bị trùng lặp. Ta giữ lại "Tài khoản khách hàng" [16] vì nó phù hợp với nghiệp vụ kinh doanh hơn
 - Danh sách tài khoản [17] và Danh sách tài khoản chính [19] bị trùng lặp, ta giữ lại Danh sách tài khoản chính [19] vì nó sẽ nhất quán với Danh mục sách chính [34]
-- Thuật ngữ "Hiệu sách" [1] khá rộng nên chúng ta sẽ bỏ.
+- Thuật ngữ Đánh giá bình luận [26] và Đánh giá sách [29] bị trùng lặp, ta sẽ giữ lại Đánh giá sách [29]
+- Chúng ta có một vài các thuật ngữ là ứng viên cho danh mục sách bao gồm: Danh mục sách [33], Danh sách các sách [28], Danh mục sách nhỏ [12] và Danh mục sách chính [34]. Danh mục sách [33] và Danh mục sách chính [34] bị trùng lặp, chúng ta giữ lại Danh mục sách chính [34] vì nó tương phản với Danh mục sách nhỏ [12]. Danh sách các sách [28] là một thuật ngữ rộng nhưng ta vẫn để lại xem xét
+- Thuật ngữ Danh mục chính [13] và Danh mục sách chính [34] bị trùng lặp, ta giữ lại Danh mục sách chính [34]
 - Thuật ngữ "Internet" [4] quá rộng nên chúng ta sẽ bỏ
+- Thuật ngữ Mật khẩu [18] quá hẹp và chi tiết để có thể trở thành một đối tượng và nó hiển thị trên giao diện như là một thành phần. Vì vậy ta sẽ bỏ ra khỏi mô hình miền. Tương tự như vậy đối với Tiêu đề [21] và Từ khóa [23]
+- Thuật ngữ "Chi tiết sách" [25] và "Sách" [2] bị trùng lặp. Ta giữ lại "Sách" [2] vì nó mang nhiều ý nghĩa đối tượng hơn
+- Thuật ngữ "Mặt hàng" (item) [7] là khá mơ hồ, chúng ta đổi tên lại thành "Mục hàng" (line item) [7] cho rõ nghĩa
+- Thuật ngữ "Hiệu sách" [1] khá rộng nên chúng ta sẽ bỏ.
