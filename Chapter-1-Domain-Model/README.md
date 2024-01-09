@@ -11,3 +11,5 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
 
 2. Hiệu sách phải có khả năng bán **sách** với các **đơn đặt hàng** được chấp nhận qua **Internet**.
 3. Người dùng phải thêm được sách vào **giỏ hàng trực tuyến**, trước khi **thanh toán**
+- Tương tự, người dùng phải có khả năng xoá mặt hàng ra khỏi giỏ hàng
+hàng
