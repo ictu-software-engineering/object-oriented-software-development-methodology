@@ -118,6 +118,6 @@ Sau khi tinh tỉnh ta còn lại một danh sách các ứng viên đối tư�
 22. Danh mục sách chính [34]
 23. Kết quả tìm kiếm [35]
 
-Chúng ta có sơ đồ miền sơ bộ như sau:
+Chúng ta có sơ đồ miền sơ bộ như sau. Chúng ta chỉ sử dụng một loại mối quan hệ trong sơ đồ trên - mối quan hệ kết tập (aggregation). Lưu ý mối quan hệ trong sơ đồ có thể KHÔNG ĐÚNG:
 
 ![Sơ đồ miền sơ bôj](/images/Initial-Domain-Model.png)
