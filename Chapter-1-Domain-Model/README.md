@@ -36,43 +36,53 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
 Chúng ta để ý tất cả những từ bôi đậm - đó là các danh từ/cụm danh từ mà chúng ta quan tâm. Đây chính là các ứng viên để giúp chúng ta điền thông tin vào tên lớp hoặc thuộc tính bởi vì cả tên và thuộc tính đều là danh từ.
 
 Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
-- Đối tác liên kết [11]
-- Tác giả [22]
+
+- Hiệu sách [1]
 - Sách [2]
-- Danh mục sách [33]
+- Đặt hàng [3]
+- Internet [4]
+- Giỏ hàng [5]
+- Thanh toán [6]
+- Mặt hàng [7]
+- Danh sách mong muốn [8]
+- Thẻ tín dụng [9]
+- Đơn đặt hàng [10]
+- Đối tác liên kết [11]
+- Danh mục nhỏ [12]
+- Danh mục chính [13]
+- Cơ sở dữ liệu [14]
+- Hệ thống vận chuyển [15]
+- Tài khoản khách hàng [16]
+- Danh sách tài khoản [17]
+- Mật khẩu [18]
+- Danh sách tài khoản chính [19]
+- Phương pháp tìm kiếm [20]
+- Tiêu đề [21]
+- Tác giả [22]
+- Từ khóa [23]
+- Danh mục [24]
 - Chi tiết sách [25]
+- Đánh giá bình luận [26]
+- Đánh giá của khách hàng [27]
 - Danh sách các sách [28]
 - Đánh giá sách [29]
-- Hiệu sách [1]
-- Danh mục [24]
-- Thanh toán [6]
-- Thẻ tín dụng [9]
 - Khách hàng [30]
-- Tài khoản khách hàng [16]
-- Đánh giá của khách hàng [27]
-- Cơ sở dữ liệu [14]
 - Đánh giá biên tập [31]
-- Internet [4]
-- Mặt hàng [7]
-- Từ khóa [23]
-- Danh sách tài khoản [17]
-- Danh sách tài khoản chính [19]
-- Danh mục sách chính [34]
-- Danh mục chính [13]
-- Danh mục nhỏ [12]
-- Đặt hàng [3]
-- Mật khẩu [18]
-- Đơn đặt hàng [10]
-- Đánh giá bình luận [26]
-- Phương pháp tìm kiếm [20]
-- Kết quả tìm kiếm [35]
 - Người bán [32]
-- Hệ thống vận chuyển [15]
-- Giỏ hàng [5]
-- Tiêu đề [21]
+- Danh mục sách [33]
+- Danh mục sách chính [34]
+- Kết quả tìm kiếm [35]
 - Tài khoản người dùng [36]
-- Danh sách mong muốn [8]
 
+Chúng ta tiến hành tinh chỉnh lại danh sách dựa trên một số các tiêu chí sau:
+- Loại bỏ các danh từ quá rộng
+- Loại bỏ các danh từ quá hẹp
+- Loại bỏ các danh từ bị trùng lặp
+- Loại bỏ các danh từ nằm ngoài hệ thống
 
-    
-    
+Dựa vào các tiêu chí trên ta tiến hành phân tích như sau:
+- Thuật ngữ Khách hàng [30], Người bán [32] bị loại bỏ do nằm ngoài hệ thống. Chúng ta sẽ sử dụng danh từ này là các tác nhân trong biểu dồ use case
+- Thuật ngữ "Tài khoản người dùng" [36] "Tài khoản khách hàng" [16] bị trùng lặp. Ta giữ lại "Tài khoản khách hàng" [16] vì nó phù hợp với nghiệp vụ kinh doanh hơn
+- Danh sách tài khoản [17] và Danh sách tài khoản chính [19] bị trùng lặp, ta giữ lại Danh sách tài khoản chính [19] vì nó sẽ nhất quán với Danh mục sách chính [34]
+- Thuật ngữ "Hiệu sách" [1] khá rộng nên chúng ta sẽ bỏ.
+- Thuật ngữ "Internet" [4] quá rộng nên chúng ta sẽ bỏ
