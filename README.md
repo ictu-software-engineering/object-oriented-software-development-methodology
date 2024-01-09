@@ -22,6 +22,10 @@ Quy trình ICONIX có thể tóm tắt bằng chữ như sau:
 5. Để xây dựng được đặc tả use case chúng ta cần dựa và giao diện demo (hoặc GUI storyboard) và sơ đồ miền (domain model)
 6. Để xây dựng được sơ đồ miền (domain model) chúng ta cần dựa vào yêu cầu hệ thống + giao diện demo (hoặc GUI storyboard)
 
+Quy trình đó có thể được minh hoạ dưới dạng rút gọn như sau:
+![Thông tin cần thiết để điền vào sơ đồ lớp](/images/Buc_tranh_chung.png)
+
+
 Như vậy đầu vào của chúng ta bao gồm 02 thứ: yêu cầu hệ thống + giao diện demo (hoặc GUI storyboard). Hai thứ này có thể coi là tương đương, một cái ở dạng chữ và một cái ở dạng hình. Việc sử dụng qua lại giữa hai dạng này sẽ giúp chúng ta đảm bảo rằng hệ thống mà chúng ta đang xây dựng sẽ ít gặp sai sót.
 
 
