@@ -19,9 +19,9 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
 - Danh mục nhỏ cần được định nghĩa dưới dạng XML
 - **Hệ thống vận chuyển** [15] sẽ được thực hiện bởi Amazon Web Services
 9. Người dùng phải có khả năng tạo **tài khoản khách hàng** [16] để hệ thống có thể lưu thông tin chi tiết về người dùng (ví dụ: tên, địa chỉ, thông tin chi tiết thẻ tín dụng,,) khi đăng nhập
-  - Hệ thống cần phải duy trì **danh sách các tài khoản** trong cơ sở dữ liệu trung tâm
-  - Khi người dùng đăng nhập, **mật khẩu** của họ cần phải khớp với mật khẩu trong **danh sách tài khoản chính**.
-10. Người dùng phải có khả năng tìm kiếm sách theo **các phương thức tìm kiếm** khác nhau như **tiêu đề**, **tác giả**, **từ khoá** hoặc **danh mục** - và sau đó xem **chi tiết sách**
+  - Hệ thống cần phải duy trì **danh sách tài khoản** [17] trong cơ sở dữ liệu trung tâm
+  - Khi người dùng đăng nhập, **mật khẩu** [18] của họ cần phải khớp với mật khẩu trong **danh sách tài khoản chính** [19].
+10. Người dùng phải có khả năng tìm kiếm sách theo các **phương pháp tìm kiếm** [20] khác nhau như **tiêu đề** [21], **tác giả** [22], **từ khoá** [23] hoặc **danh mục** [24] - và sau đó xem **chi tiết sách** [25]
 11. Người dùng phải có khả năng đăng các nhận xét của các sách ưa thích; **các nhận xét** cần phải xuất hiện trong màn hình chi tiết sách. Nhận xét cần có **đánh giá của khách hàng** (1-5) - đánh giá này thông thường sẽ được hiển thị cùng với tiêu đề sách trong **danh sách các sách**
 - **Nhận xét sách** cần phải được quản lý - phải được đánh dấu "OK" bởi nhân viên trước khi hiển thị lên website
 - Những nhận xét dài cần phải được làm ngắn gọn lại trên trang chi tiết sách; **khách hàng** có thể bấm vào xem nhận xét đầy đủ để xem trên trang web khác
@@ -37,13 +37,14 @@ Chúng ta để ý tất cả những từ bôi đậm - đó là các danh từ
 
 Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 - Đối tác liên kết [11]
-- Tác giả
+- Tác giả [22]
 - Sách [2]
 - Danh mục sách
 - Chi tiết sách
 - Danh sách
 - Đánh giá sách
 - Hiệu sách [1]
+- Danh mục [24]
 - Thanh toán [6]
 - Thẻ tín dụng [9]
 - Khách hàng
@@ -53,22 +54,22 @@ Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 - Đánh giá biên tập
 - Internet [4]
 - Mặt hàng [7]
-- Từ khóa
-- Danh sách tài khoản
-- Danh sách tài khoản chính
+- Từ khóa [23]
+- Danh sách tài khoản [17]
+- Danh sách tài khoản chính [19]
 - Danh mục sách Master
 - Danh mục chính [13]
 - Danh mục nhỏ [12]
 - Đặt hàng
-- Mật khẩu
+- Mật khẩu [18]
 - Đơn đặt hàng [10]
 - Đánh giá bình luận
-- Phương pháp tìm kiếm
+- Phương pháp tìm kiếm [20]
 - Kết quả tìm kiếm
 - Người bán
 - Hệ thống vận chuyển [15]
 - Giỏ hàng [5]
-- Tiêu đề
+- Tiêu đề [21]
 - Tài khoản người dùng
 - Danh sách mong muốn [8]
 
