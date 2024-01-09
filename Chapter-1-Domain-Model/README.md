@@ -7,26 +7,71 @@
 Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt tổng thể trên một sơ đồ chúng ta có 2 thứ cần quan tâm: các hình vẽ trong sơ đồ và mối quan hệ giữa các hình vẽ. Hình vẽ trên sơ đồ được gọi là đối tượng miền (domain object), và mối quan hệ giữa các đối tượng miền là các loại đường kết nối. Đầu tiên chúng ta phải xác định được đối đượng miền, dựa vào đâu? Đầu vào của chúng ta có ban đầu chính là yêu cầu hệ thống (yêu cầu chức năng + phi chức năng) và giao diện demo (GUI storyboard hoặc HTML demo). Chúng ta hãy xem xét yêu cầu sau (yêu cầu được cho trước).
 
 ## Yêu cầu hệ thống
-1. **Hiệu sách** ban đầu sẽ dựa trên web, nhưng nó phải có kiến trúc đủ linh hoạt để có thể phát triển các giao diện người dùng thay thế (Swing/applet, dịch vụ web, v.v.)
-
-2. Hiệu sách phải có khả năng bán **sách** với các **đơn đặt hàng** được chấp nhận qua **Internet**.
-3. Người dùng phải thêm được sách vào **giỏ hàng trực tuyến**, trước khi **thanh toán**
-- Tương tự, người dùng phải có khả năng xoá **mặt hàng** ra khỏi giỏ hàng
-4. Người dùng phải có khả năng duy trì một **danh sách mong muốn** các sách mà họ muốn mua sau này
+1. **Hiệu sách** [1] ban đầu sẽ dựa trên web, nhưng nó phải có kiến trúc đủ linh hoạt để có thể phát triển các giao diện người dùng thay thế (Swing/applet, dịch vụ web, v.v.)
+2. Hiệu sách phải có khả năng bán **sách** [2] với các **đơn hàng** [3] được chấp nhận qua **Internet** [4].
+3. Người dùng phải thêm được sách vào **giỏ hàng** [5] trực tuyến, trước khi **thanh toán** [6]
+- Tương tự, người dùng phải có khả năng xoá **mặt hàng** [7] ra khỏi giỏ hàng
+4. Người dùng phải có khả năng duy trì một **danh sách mong muốn** [8] các sách mà họ muốn mua sau này
 5. Người dùng phải có khả năng huỷ hoá đơn trước khi nó được vận chuyển
-6. Người dùng phải có khả năng thanh toán qua **thẻ tín dụng** hoặc **hoá đơn mua**
+6. Người dùng phải có khả năng thanh toán qua **thẻ tín dụng** [9] hoặc **đơn đặt hàng** [10]
 7. Người dùng phải có khả năng trả sách
-8. Cửa hàng phải có khả năng nhúng vào các trang web **đối tác liên kết** sử dụng **danh mục nhỏ** được trích xuất từ **danh mục lớn** trong **cơ sở dữ liệu**
+8. Cửa hàng phải có khả năng nhúng vào các trang web **đối tác liên kết** [11] sử dụng **danh mục nhỏ** [12] được trích xuất từ **danh mục lớn** [13] trong **cơ sở dữ liệu** [14]
 - Danh mục nhỏ cần được định nghĩa dưới dạng XML
-- **Hệ thống vận chuyển** sẽ được thực hiện bởi Amazon Web Services
-9. Người dùng phải có khả năng tạo **tài khoản khách hàng** để hệ thống có thể lưu thông tin chi tiết về người dùng (ví dụ: tên, địa chỉ, thông tin chi tiết thẻ tín dụng,,) khi đăng nhập
+- **Hệ thống vận chuyển** [15] sẽ được thực hiện bởi Amazon Web Services
+9. Người dùng phải có khả năng tạo **tài khoản khách hàng** [16] để hệ thống có thể lưu thông tin chi tiết về người dùng (ví dụ: tên, địa chỉ, thông tin chi tiết thẻ tín dụng,,) khi đăng nhập
   - Hệ thống cần phải duy trì **danh sách các tài khoản** trong cơ sở dữ liệu trung tâm
   - Khi người dùng đăng nhập, **mật khẩu** của họ cần phải khớp với mật khẩu trong **danh sách tài khoản chính**.
-10. Người dùng phải có khả năng tìm kiếm sách theo **các phương thức tìm kiếm** khác nhau - **tiêu đề, tác giả, từ khoá **hoặc **danh mục** - và sau đó xem **chi tiết sách**
+10. Người dùng phải có khả năng tìm kiếm sách theo **các phương thức tìm kiếm** khác nhau như **tiêu đề**, **tác giả**, **từ khoá** hoặc **danh mục** - và sau đó xem **chi tiết sách**
 11. Người dùng phải có khả năng đăng các nhận xét của các sách ưa thích; **các nhận xét** cần phải xuất hiện trong màn hình chi tiết sách. Nhận xét cần có **đánh giá của khách hàng** (1-5) - đánh giá này thông thường sẽ được hiển thị cùng với tiêu đề sách trong **danh sách các sách**
 - **Nhận xét sách** cần phải được quản lý - phải được đánh dấu "OK" bởi nhân viên trước khi hiển thị lên website
 - Những nhận xét dài cần phải được làm ngắn gọn lại trên trang chi tiết sách; **khách hàng** có thể bấm vào xem nhận xét đầy đủ để xem trên trang web khác
-12.
+12. Hệ thống phải cho phép nhân viên **nhận xét biên tập**. Nhận xét biên tập phải xuất hiện trên trang chi tiết sách.
+13. Cửa hàng cho phép **người bán** (bên ngoài hệ thống) thêm **danh mục sách** của họ. Danh mục sách này sẽ được thêm vào **danh mục sách chính** để có thể hiển thị trên trang tìm kiếm
+14. Hiệu sách phải có khả năng mở rộng, với những yêu cầu cụ thể sau:
+  - Hiệu sách phải có khả năng duy trì **tài khoản người dùng** đến 100,000 khách hàng trong 6 tháng đầu tiên và sau đó là 1000,000 tài khoản
+  - Hiệu sách phải có khả năng đáp ứng 1,000 lượt truy cập đồng thời (10,000 sau 6 tháng)
+  - Hiệu sách phải có khả năng đáp ứng 100 truy vấn trên một phút (1,000 phút sau 6 tháng)
+  - Hiệu sách phải có khả năng đáp ứng xử lý 100 đơn hàng trên một giờ (1,000 đơn hàng/giờ sau 6 tháng)
+
+Chúng ta để ý tất cả những từ bôi đậm - đó là các danh từ/cụm danh từ mà chúng ta quan tâm. Đây chính là các ứng viên để giúp chúng ta điền thông tin vào tên lớp hoặc thuộc tính bởi vì cả tên và thuộc tính đều là danh từ.
+
+Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
+- Đối tác liên kết [11]
+- Tác giả
+- Sách [2]
+- Danh mục sách
+- Chi tiết sách
+- Danh sách
+- Đánh giá sách
+- Hiệu sách [1]
+- Thanh toán [6]
+- Thẻ tín dụng [9]
+- Khách hàng
+- Tài khoản khách hàng [16]
+- Đánh giá của khách hàng
+- Cơ sở dữ liệu [14]
+- Đánh giá biên tập
+- Internet [4]
+- Mặt hàng [7]
+- Từ khóa
+- Danh sách tài khoản
+- Danh sách tài khoản chính
+- Danh mục sách Master
+- Danh mục chính [13]
+- Danh mục nhỏ [12]
+- Đặt hàng
+- Mật khẩu
+- Đơn đặt hàng [10]
+- Đánh giá bình luận
+- Phương pháp tìm kiếm
+- Kết quả tìm kiếm
+- Người bán
+- Hệ thống vận chuyển [15]
+- Giỏ hàng [5]
+- Tiêu đề
+- Tài khoản người dùng
+- Danh sách mong muốn [8]
+
 
     
     
