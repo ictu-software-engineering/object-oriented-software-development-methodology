@@ -30,3 +30,8 @@ ALTERNATE COURSE:
 Use case được viết trong ngữ cảnh của mô hình miền—nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) đi vào mô hình miền cũng phải được sử dụng trực tiếp trong đặc tả use case
 
 Cách tiếp cận ICONIX giả định rằng mô hình miền ban đầu là sai và đưa ra cách cải thiện dần dần mô hình đó khi ta phân tích các use case. Đó là lý do tại sao ta chỉ nên dành tối đa vài giờ cho việc lập mô hình miền trước khi bắt đầu lập mô hình use case. Khi ta viết các use case, nếu danh từ chưa có trong "từ điển" thì ta phải cập nhật từ điển. Chúng ta luôn phải đảm bảo rằng danh từ/cụm danh từ dùng trong đặc tả use case phải lấy từ "từ điển" - mô hình miền ra.
+
+Trong quá trình thiết kế sơ bộ, mô hình miền biến thành mô hình miền cập nhật, mô hình miền này cuối cùng (trong quá trình thiết kế chi tiết) trở thành mô hình lớp (tức là mô hình tĩnh xác định các lớp phần mềm). Ta nên cập nhật mô hình miền không chỉ khi lập mô hình các use case mà còn khi vẽ sơ đồ độ bền/mạnh mẽ và sơ đồ trình tự.
+
+## Sắp xếp các use cases thành các gói (Packages)
+Các gói về cơ bản là các thùng chứa có thứ bậc có thể chứa hầu hết mọi cấu trúc UML, bao gồm cả các gói khác. Nếu bạn là lập trình viên Java, các gói UML không hoàn toàn khác với các gói Java, ở chỗ chúng cho phép bạn chia công việc của mình thành các khu vực khác nhau.
