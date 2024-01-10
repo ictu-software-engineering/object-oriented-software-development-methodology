@@ -135,9 +135,23 @@ Sơ đồ miền sau khi được tinh chỉnh lần 1 sẽ được biểu di�
 
 ![Domain](/images/Domain-Updated-V1.png)
 
+Nhìn vào sơ đồ trên ta thấy một mớ các mối quan hệ. Chúng ta cần làm gọn lại với tư tưởng hướng đối tượng - đó chính là tính kế thừa (nhìn từ trên xuống) hoặc khái quát hoá (nhìn từ dưới lên)
+
+## Khái quát hoá (generalization)
+Mối quan hệ khái quát hóa là mối quan hệ trong đó một lớp là một “loại” của một số lớp khác— ví dụ: Mèo là một loại Động vật. Đây là lý do tại sao sự khái quát hóa thường được gọi là mối quan hệ "là - một" (is-a)
+
+Mèo cụ thể hơn Động vật (Mèo là sự “tinh chỉnh” của lớp Động vật tổng quát hơn), do đó có thuật ngữ “khái quát hóa”. Lớp cụ thể hơn được gọi là lớp con và lớp tổng quát hơn là siêu lớp. Tạo ra các lớp con của các lớp tổng quát hơn được gọi là phân nhóm.
+
+Trong "Hiệu sách" trên Internet, "Danh mục sách" là một ứng cử viên sáng giá cho việc phân loại sách, vì làm như vậy sẽ giúp “làm mờ” mối quan hệ giữa Danh mục nhỏ và Danh mục sách chính. Danh sách sách cũng là một lựa chọn phù hợp để phân loại vì có thể có nhiều loại tài khoản và các loại danh sách sách khác nhau.
+
+Khi chúng ta nghiên cứu sâu hơn về nhu cầu của người dùng đối với hệ thống Hiệu sách Internet, chúng ta bắt đầu xác định các loại danh sách sách khác nhau: Danh sách mong muốn của khách hàng, Danh sách đề xuất, Sách liên quan, Kết quả tìm kiếm, v.v. Rõ ràng rằng đây đều chỉ là danh sách Sách, vì vậy chúng có thể (ít nhất về mặt khái niệm) có một lớp cha chung. Chúng ta đã phát hiện ra rằng thực sự có những khía cạnh của Danh sách mong muốn, Sách liên quan và sẽ sớm đủ khác biệt để biện minh cho việc xử lý riêng biệt, trong khi chúng vẫn có đủ điểm chung để chúng là tất cả các loại Danh sách sách. Mối quan hệ khái quát hoá được minh hoạ như trong hình sau
+
+![Generalization](/images/generalization.png)
+
+Các lớp mới (Sách liên quan, Danh sách đề xuất, Danh sách mong muốn và Kết quả tìm kiếm) kế thừa các thuộc tính và thao tác mà chúng ta xác định cho Danh sách sách: Một danh sách sách có sách. Sách liên quan là một danh sách sách. Danh sách đề xuất là một danh sách sách. Danh sách mong muốn là một danh sách sách. Kết quả tìm kiếm là một danh sách sách
 
 
-
+![Final](/images/Final-domain-v1.png)
 
 
 
