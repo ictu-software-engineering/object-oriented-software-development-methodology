@@ -24,3 +24,8 @@ ALTERNATE COURSE:
 - Người dùng chưa đăng nhập: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
 - Người dùng nhập đánh giá quá dài (văn bản > 1MB): Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
 - Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá.
+
+## Tại sao viết use case lại sau mô hình miền?
+
+Use case được viết trong ngữ cảnh của mô hình miền—nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) đi vào mô hình miền cũng phải được sử dụng trực tiếp trong đặc tả use case
+
