@@ -33,7 +33,7 @@ Chúng ta có một số hướng dẫn để tạo sơ đồ miền. Về mặt
   - Hiệu sách phải có khả năng đáp ứng 100 truy vấn trên một phút (1,000 phút sau 6 tháng)
   - Hiệu sách phải có khả năng đáp ứng xử lý 100 đơn hàng trên một giờ (1,000 đơn hàng/giờ sau 6 tháng)
 
-Chúng ta để ý tất cả những từ bôi đậm - đó là các danh từ/cụm danh từ mà chúng ta quan tâm. Đây chính là các ứng viên để giúp chúng ta điền thông tin vào tên lớp hoặc thuộc tính bởi vì cả tên và thuộc tính đều là danh từ.
+Chúng ta để ý tất cả những từ bôi đậm - đó là các **danh từ/cụm danh từ** mà chúng ta quan tâm. Đây chính là các ứng viên để giúp chúng ta điền thông tin vào tên lớp hoặc thuộc tính bởi vì cả tên và thuộc tính đều là danh từ.
 
 Chúng ta tách các từ bôi đậm thành một danh sách riêng như sau:
 
@@ -125,5 +125,19 @@ Chúng ta có sơ đồ miền sơ bộ như sau. Chúng ta chỉ sử dụng m�
 Trong sơ đồ trên, một số đối tượng miền không có mối quan hệ với các đối tượng khác. Chúng ta sẽ tiến hành cập nhật lại sơ đồ miền khi chúng ta xây dựng sơ đồ mạnh mẽ (robustness diagram ở phần sau)
 
 ## Tinh chỉnh sơ đồ miền
-Chúng ta cần phải tinh chỉnh sơ đồ miền sau khi đã có bản sơ bộ đầu tiên mà không phải tư duy nhiều.
+Chúng ta cần phải tinh chỉnh sơ đồ miền sau khi đã có bản sơ bộ đầu tiên. Đây là giai đoạn tương đối khó vì nó đòi hỏi chúng ta cần phải tư duy. Có một cách mà chúng ta có thể tiếp cận để tư duy trong giai đoạn này đó là tham khảo các hệ thống tương đương. Sau khi tham khảo ta bổ sung 04 đối tượng miền mới mà không có rõ ràng trong yêu cầu của hệ thống bao gồm: Lịch sử đơn hàng [37] và Lệnh chuyển đơn hàng [38], Kho hàng [39], Hàng tồn kho [40] bởi vì chúng ta muốn các đối tượng miền của chúng ta có sự kết nối với nhau. Hiếm có đối tượng miền nào trong hệ thống đứng độc lập
+
+Chúng ta loại bỏ đối tượng "Thanh toán" ra khỏi mô hình vì "Thanh toán" giống động từ hơn là danh từ. Chúng ta cũng loại bỏ "Tác giả" ra khỏi mô hình cho tinh gọn vì ta sẽ coi tác giả là một thuộc tính ở trong sách.
+
+Sau khi tư duy và tham khảo các trang web bán sách, chúng ta thấy rằng để đi từ Danh mục sách chính [34] đến Sách vẫn phải qua một bước trung gian nữa, đó là trong danh mục sách chính cũng lại có danh mục sách. Vì vậy ta bổ sung lại Danh mục sách (đã loại bỏ ở bước trước) vào lại sơ đồ miền, đồng thời chỉnh lại mối quan hệ giữa chúng.
+
+Sơ đồ miền sau khi được tinh chỉnh lần 1 sẽ được biểu diễn như sau:
+
+![Domain](/images/Domain-Updated-V1.png)
+
+
+
+
+
+
 
