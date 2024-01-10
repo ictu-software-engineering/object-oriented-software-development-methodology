@@ -118,6 +118,12 @@ Sau khi tinh tỉnh ta còn lại một danh sách các ứng viên đối tư�
 22. Danh mục sách chính [34]
 23. Kết quả tìm kiếm [35]
 
+## Vẽ sơ đồ miền sơ bộ
 Chúng ta có sơ đồ miền sơ bộ như sau. Chúng ta chỉ sử dụng một loại mối quan hệ trong sơ đồ trên - mối quan hệ kết tập (aggregation). Lưu ý mối quan hệ trong sơ đồ có thể KHÔNG ĐÚNG:
 
-![Sơ đồ miền sơ bôj](/images/Initial-Domain-Model.png)
+![Sơ đồ miền sơ bộ](/images/Initial-Domain-Model.png)
+Trong sơ đồ trên, một số đối tượng miền không có mối quan hệ với các đối tượng khác. Chúng ta sẽ tiến hành cập nhật lại sơ đồ miền khi chúng ta xây dựng sơ đồ mạnh mẽ (robustness diagram ở phần sau)
+
+## Tinh chỉnh sơ đồ miền
+Chúng ta cần phải tinh chỉnh sơ đồ miền sau khi đã có bản sơ bộ đầu tiên mà không phải tư duy nhiều.
+
