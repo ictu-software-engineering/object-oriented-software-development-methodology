@@ -158,7 +158,9 @@ Chúng ta cũng đã thay đổi định nghĩa về Đánh giá sách để gi�
 Như vậy về sơ bộ chúng ta đã xây dựng xong sơ đồ miền ở bước đầu tiên. Cần nhớ rằng đây là cách làm tốt nhất của chúng ta ở thời điểm hiện tại. Sơ đồ này chỉ là sơ đồ thô với các lập luận của ta và nó có thể cần cập nhật ở các bước sau này. Điểm nổi bật của sơ đồ miền khi chúng ta xây dựng đó chính là việc nó đóng vai trò là quyển **TỪ ĐIỂN SỐNG** khi chúng ta xây dựng đặc tả use case. Sau khi xây dựng xong sơ đồ miền, chúng ta đã sẵn sàng sang sơ đồ [Use Case](/Chapter-2-Use-Case-Model/README.md)
 
 ## Ví dụ tương tự
-Chúng ta hãy xem một ví dụ tương tự sau nhằm xây dựng mô hình miền:
+Chúng ta hãy xem một ví dụ tương tự sau với
+- Đầu vào: yêu cầu hệ thống (giống chúng ta vừa làm xong)
+- Đầu ra: Sơ đồ lớp (cũng là cái chúng ta muốn trong khoá học này):
 
 ## Problem Statement
 *"Develop a graphic editor that can draw different geometric shapes such as line, circle and triangle. User can select, move or rotate a shape. To do so, editor provides user with a menu listing different commands. Individual shapes can be grouped together and can behave as a single shape."* 
@@ -311,3 +313,6 @@ By analyzing requiremens
    * Group inherits from Shape
 ### Refined Object Model - Graphic Editor
 ![initial](https://user-images.githubusercontent.com/41892175/45870172-d895d700-bdbc-11e8-86c9-048304dd22a2.jpg)
+
+
+Rõ ràng cách thức xây dựng mô hình miền Y CHANG như cách chúng ta đang tiếp cận: đó là tìm kiếm danh từ/cụm danh từ, tinh chỉnh (thêm/xoá) và vẽ sơ đồ chỉ có tên. Như vậy cách chúng ta đi theo tài liệu ICONIX là đang đúng hướng.
