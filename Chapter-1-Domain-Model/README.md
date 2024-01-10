@@ -131,7 +131,7 @@ Chúng ta loại bỏ đối tượng "Thanh toán" ra khỏi mô hình vì "Tha
 
 Sau khi tư duy và tham khảo các trang web bán sách, chúng ta thấy rằng để đi từ Danh mục sách chính [34] đến Sách vẫn phải qua một bước trung gian nữa, đó là trong danh mục sách chính cũng lại có danh mục sách. Vì vậy ta bổ sung lại Danh mục sách (đã loại bỏ ở bước trước) vào lại sơ đồ miền, đồng thời chỉnh lại mối quan hệ giữa chúng.
 
-Sơ đồ miền sau khi được tinh chỉnh lần 1 sẽ được biểu diễn như sau:
+Sơ đồ miền sau khi được tinh chỉnh lần 1 sẽ được biểu diễn như sau (nền đỏ là những đối tượng mới được thêm vào, nền đen là những đối tượng bị loại bỏ):
 
 ![Domain](/images/Domain-Updated-V1.png)
 
