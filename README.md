@@ -29,3 +29,5 @@ Quy trình đó có thể được minh hoạ dưới dạng rút gọn như sau
 Như vậy đầu vào của chúng ta bao gồm 02 thứ: yêu cầu hệ thống + giao diện demo (hoặc GUI storyboard). Hai thứ này có thể coi là tương đương, một cái ở dạng chữ và một cái ở dạng hình. Việc sử dụng qua lại giữa hai dạng này sẽ giúp chúng ta đảm bảo rằng hệ thống mà chúng ta đang xây dựng sẽ ít gặp sai sót.
 
 
+# Tài liệu tham khảo
+- [Công cụ vẽ visual-paradigm.com](visual-paradigm.com)
