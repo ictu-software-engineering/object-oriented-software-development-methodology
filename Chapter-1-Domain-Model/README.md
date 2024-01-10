@@ -157,3 +157,37 @@ Chúng ta cũng đã thay đổi định nghĩa về Đánh giá sách để gi�
 
 Như vậy về sơ bộ chúng ta đã xây dựng xong sơ đồ miền ở bước đầu tiên. Cần nhớ rằng đây là cách làm tốt nhất của chúng ta ở thời điểm hiện tại. Sơ đồ này chỉ là sơ đồ thô với các lập luận của ta và nó có thể cần cập nhật ở các bước sau này. Điểm nổi bật của sơ đồ miền khi chúng ta xây dựng đó chính là việc nó đóng vai trò là quyển **TỪ ĐIỂN SỐNG** khi chúng ta xây dựng đặc tả use case. Sau khi xây dựng xong sơ đồ miền, chúng ta đã sẵn sàng sang sơ đồ [Use Case](/Chapter-2-Use-Case-Model/README.md)
 
+## Ví dụ tương tự
+Chúng ta hãy xem một ví dụ tương tự sau nhằm xây dựng mô hình miền:
+
+## Problem Statement
+*"Develop a graphic editor that can draw different geometric shapes such as line, circle and triangle. User can select, move or rotate a shape. To do so, editor provides user with a menu listing different commands. Individual shapes can be grouped together and can behave as a single shape."* 
+
+---
+### Step 1). Identify Classes
+Extract nouns in the problem statement.
+
+Develop a graphic **editor** that can draw different geometric **shapes** such as **line**, **circle** and **triangle**. **User** can select, move or rotate a **shape**. To do so, **editor** provides **user** with a **menu** listing different **commands**. Individual **shapes** can be grouped together and can behave as a single **shape**. 
+
+Eliminate irrelevant classes.
+* Editor - Very broad scope
+* User – Out of system boundary
+* commands – Broad scope
+
+Add more classes by analyzing requirements
+* Group - required to behave as a shape
+  * Individual shapes can be grouped together and can behave as a single shape
+* View – editor must have a display area
+
+Following classes have been identified:
+* Shape
+* Line
+* Circle
+* Triangle
+* Menu
+* **Group**
+* **View**
+### Basic Object Model - Graphic Editor
+![initial](https://user-images.githubusercontent.com/41892175/45860923-6614ff00-bd9c-11e8-87fb-530b0b6dc907.jpg)
+
+
