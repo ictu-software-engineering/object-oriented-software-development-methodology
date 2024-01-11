@@ -129,7 +129,7 @@ Use case được cập nhật cũng mô tả quá trình xác thực mà hệ t
 ## Viết kịch bản use case -  alternate course (ngày mưa)
 Trong kịch bản Viết bài đánh giá của người đọc, tất cả nội dung chúng ta có tại thời điểm này đều dành cho basic course, chẳng hạn như “Khách hàng nhập Bài đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi”. Chúng ta cần phải viết kịch bản trong trường hợp basic course ở phía trên gặp vấn đề hoặc là tình huống khác ít gặp.
 
-``
+``` 
 ALTERNATE COURSE:
 
 Người dùng chưa đăng nhập: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
@@ -137,4 +137,4 @@ Người dùng chưa đăng nhập: Trước tiên, người dùng được đư
 Người dùng nhập đánh giá quá dài (văn bản > 1MB): Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
 
 Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
-``
+```
