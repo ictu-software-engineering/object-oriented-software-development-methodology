@@ -175,7 +175,7 @@ ALTERNATE COURSE:
 - Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
 ```
 
-Các bạn làm tương tự cho tất cả các kịch bản use case còn lại. Khi có các kịch bản use case thì chúng ta đã sẵn sàng để sang chương tiếp theo 
+Các bạn làm tương tự cho tất cả các kịch bản use case còn lại. Khi có các kịch bản use case thì chúng ta đã sẵn sàng để sang chương tiếp theo [Robustness Analysis](/Chapter-3-Robustness-Diagram/README.md)
 
 ## Tại sao không sử dụng use case template?
 Theo lập luận của tác giả, các template viết kịch bản use case trước đây quá dài, ví dụ:
