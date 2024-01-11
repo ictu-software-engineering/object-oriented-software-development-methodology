@@ -62,7 +62,7 @@ Chúng ta sẽ chia use case thành 04 nhóm: chúng, mua hàng, admin và tìm 
 - Xoá sản phẩm ra khỏi Giỏ hàng
 - Xem Sách đề xuất
 - Xem Đánh giá
-- Viết đánh giá sách
+- Viết đánh giá sách của người đọc
 
 3. Quản trị (admin)
 + Dịch vụ chăm sóc khách hàng
@@ -98,12 +98,40 @@ Dựa vào 4 nhóm (hoặc gói) trên, ta sẽ có 04 sơ đồ use case tổng
 
 Có một điểm lưu ý trong sơ đồ use case tổng quát trên đó là sự vắng mặt của các đường kết nối gữa các tác nhân với use case hoặc giữa các use case với nhau. Điều này là do (theo cách tiếp cận của ICONIX) những đường kết nối này không quá quan trọng bằng việc viết ĐẶC TẢ use case - cái mà chúng ta sẽ dùng rất nhiều khi xây dựng sơ đồ mạnh mẽ (robustness diagram) và sơ đồ trình tự (sequence diagram)
 
-## Viết đặc tả use case
-Chúng ta sẽ bắt đầu viết đặc tả cho use case "Viết đánh giá sách" (Write Review). Mở lại sơ đồ miền ở Chương 1, chúng ta sẽ thấy có 02 loại đánh giá: Đánh giá từ độc giả và đánh giá từ ban biên tập 
+## Viết kịch bản use case -  basic course (ngày nắng)
+Chúng ta sẽ bắt đầu viết đặc tả cho use case "Viết đánh giá sách" (Write Review). Mở lại sơ đồ miền ở Chương 1, chúng ta sẽ thấy có 02 loại đánh giá: Đánh giá từ độc giả và đánh giá từ ban biên tập. Chúng ta viết kịch bản cho use case Viết đánh giá sách của người đọc 
 
 Chúng ta bắt đầu bằng những hành động đơn giản đầu tiên:
 
 ``
 Khách hàng nhập đánh giá về sách đã chọn, cho điểm và gửi. 
 Đánh giá được gửi đến người kiểm duyệt.
+``
+
+Kịch bản trên là khá ngắn gọn, chúng ta cần làm chi tiết hơn (nhớ quy luật 2-paragraph rule), nghĩa là nó không quá ngắn và không quá dài. Và chúng ta sẽ cùng cải tiến nó. Cụ thể, hãy đảm bảo rằng nó được viết ở dạng chủ động (thì hiện tại, mô tả hành động của người dùng và phản hồi của hệ thống hoặc ngược lại) và đặt tên rõ ràng cho các đối tượng miền tham gia (lấy từ sơ đồ miền). Mục tiêu của chúng ta là mô tả rõ ràng hành vi được yêu cầu của hệ thống và xác định đối tượng miền nào sẽ thực hiện hành vi được yêu cầu đó.
+
+Với những lưu ý như trên, ta tinh chỉnh lại kịch bản use case như sau:
+
+``
+Khách hàng chọn sách. Hệ thống hiển thị trang chi tiết sách. Khách hàng bấm vào nút Viết đánh giá, hệ thống hiển thị màn hình Viết đánh giá. Người dùng nhập bài đánh giá về cuốn sách, xếp hạng cuốn sách đó trên 5 sao và nhấp vào nút Gửi. Hệ thống đảm bảo rằng bài đánh giá không quá dài hay quá ngắn và xếp hạng nằm trong khoảng từ một đến năm sao. Sau đó, hệ thống sẽ hiển thị màn hình xác nhận và bài đánh giá sẽ được gửi đến người kiểm duyệt
+``
+
+Cách dẫn dắt vấn đề để đến được phần viết đánh giá hơi xa. Có vấn đề đối với cách tiếp cận này đó là khi ta mô tả các sự kiện dẫn đến trang Viết đánh giá, chúng ta thực sự đang mô tả một phần của một use case khác. Do đó, ta tinh chỉnh lại lần 2 như sau:
+
+``
+Khách hàng nhấp vào nút Viết đánh giá cho cuốn sách hiện đang được xem và hệ thống hiển thị màn hình Viết đánh giá. Khách hàng nhập Đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi. Hệ thống đảm bảo rằng Đánh giá sách không quá dài hay quá ngắn và Xếp hạng sách nằm trong khoảng từ một đến năm sao. Sau đó, hệ thống hiển thị màn hình xác nhận và đánh giá sẽ được gửi đến Người kiểm duyệt
+``
+
+Đọc qua kịch bản trên, ta có thể thấy nó liên quan như thế nào đến mô hình miền. Các đối tượng như Đánh giá sách [29] và Xếp hạng sách [27], xuất hiện trên mô hình miền, được tham chiếu rõ ràng theo tên trong use case. Có một tác nhân con người tên là Khách hàng và chúng ta cũng đã xác định một tác nhân mới tên là Người kiểm duyệt (người chịu trách nhiệm kiểm tra các bài đánh giá trước khi chúng được hiển thị). Và cũng sẽ có một số loại màn hình (giao diện) để tương tác cho use case Viết đánh giá sách.
+
+Use case được cập nhật cũng mô tả quá trình xác thực mà hệ thống thực hiện trên dữ liệu đã gửi (ví dụ: kiểm tra xem Xếp hạng Sách có phải là giá trị hợp pháp hay không, trong phạm vi một và năm sao). Khi ta chuyển sang phân tích độ bền/mạnh mẽ trong Chương 3, việc mô tả quyền xác thực trong kịch bản use case use case là một phương pháp quan trọng để xác định bộ điều khiển (Controllers).
+
+## Viết kịch bản use case -  alternate course (ngày mưa)
+Trong kịch bản Viết bài đánh giá của người đọc, tất cả nội dung chúng ta có tại thời điểm này đều dành cho basic course, chẳng hạn như “Khách hàng nhập Bài đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi”. Chúng ta cần phải viết kịch bản trong trường hợp basic course ở phía trên gặp vấn đề hoặc là tình huống khác ít gặp.
+
+``
+ALTERNATE COURSE:
+Người dùng chưa đăng nhập: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
+Người dùng nhập đánh giá quá dài (văn bản > 1MB): Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
+Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
 ``
