@@ -60,4 +60,4 @@ Hướng mà các đầu mũi tên chỉ trên biểu đồ mạnh mẽ không g
 
 
 ## Công cụ vẽ Robustness Diagram
-[Visual Paradigm - Robustness Diagram templates](https://online.visual-paradigm.com/diagrams/templates/robustness-diagram/)
+[Visual Paradigm - Robustness Diagram templates](https://online.visual-paradigm.com/diagrams/templates/robustness-diagram/customer-creation-process/)
