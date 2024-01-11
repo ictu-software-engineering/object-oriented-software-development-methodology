@@ -160,7 +160,10 @@ Kết hợp 02 thông tin basic course và alternate course ta có kịch bản 
 ```
 BASIC COURSE
 
-Khách hàng nhấp vào nút Viết đánh giá cho cuốn sách hiện đang được xem và hệ thống hiển thị màn hình Viết đánh giá. Khách hàng nhập Đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi. Hệ thống đảm bảo rằng Đánh giá sách không quá dài hay quá ngắn và Xếp hạng sách nằm trong khoảng từ một đến năm sao. Sau đó, hệ thống hiển thị màn hình xác nhận và đánh giá sẽ được gửi đến Người kiểm duyệt
+Khách hàng nhấp vào nút Viết đánh giá cho cuốn sách hiện đang được xem và hệ thống hiển thị màn hình Viết đánh giá. 
+Khách hàng nhập Đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi. 
+Hệ thống đảm bảo rằng Đánh giá sách không quá dài hay quá ngắn và Xếp hạng sách nằm trong khoảng từ một đến năm sao. 
+Sau đó, hệ thống hiển thị màn hình xác nhận và đánh giá sẽ được gửi đến Người kiểm duyệt
 
 
 ALTERNATE COURSE:
@@ -171,6 +174,8 @@ ALTERNATE COURSE:
 
 - Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
 ```
+
+Các bạn làm tương tự cho tất cả các kịch bản use case còn lại. Khi có các kịch bản use case thì chúng ta đã sẵn sàng để sang chương tiếp theo 
 
 ## Tại sao không sử dụng use case template?
 Theo lập luận của tác giả, các template viết kịch bản use case trước đây quá dài, ví dụ:
