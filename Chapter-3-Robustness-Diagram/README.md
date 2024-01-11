@@ -19,5 +19,14 @@ Có 03 ký phát đồ hoạ được sử dụng trong sơ đồ mạnh mẽ:
 
 Sẽ rất hữu ích khi coi các đối tượng biên và đối tượng thực thể là danh từ và bộ điều khiển là động từ. Hãy ghi nhớ các quy tắc sau khi vẽ sơ đồ mạnh mẽ:
 - Danh từ có thể nói với động từ (và ngược lại).
-- Danh từ không thể nói chuyện với danh từ khác.
+- Danh từ không thể nói chuyện với danh từ khác (Boundary object không nói chuyện được với Entity object)
 - Động từ có thể nói chuyện với động từ khác.
+
+## Hướng dẫn vẽ sơ đồ độ bền
+### Copy kịch bản use case vào sơ đồ độ bền
+
+
+
+
+## Công cụ vẽ Robustness Diagram
+[Visual Paradigm - Robustness Diagram templates](https://online.visual-paradigm.com/diagrams/templates/robustness-diagram/)
