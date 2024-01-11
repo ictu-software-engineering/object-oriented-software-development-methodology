@@ -37,7 +37,7 @@ Trong quá trình thiết kế sơ bộ, mô hình miền biến thành mô hìn
 Các gói về cơ bản là các thùng chứa có thứ bậc có thể chứa hầu hết mọi cấu trúc UML, bao gồm cả các gói khác. Nếu bạn là lập trình viên Java, các gói UML không hoàn toàn khác với các gói Java, ở chỗ chúng cho phép bạn chia công việc của mình thành các khu vực khác nhau.
 
 Chúng ta sẽ chia use case thành 04 nhóm: chúng, mua hàng, admin và tìm kiếm. Lưu ý: Đây chỉ là một trong các cách nhóm - thực tế có thể có cách nhóm khác.
-1. Chung
+1. Chung (general)
 - Thêm sản phẩm vào Danh sách mong muốn
 - Huỷ Đơn hàng
 - Cập nhật Giỏ hàng
@@ -88,3 +88,9 @@ Chúng ta sẽ chia use case thành 04 nhóm: chúng, mua hàng, admin và tìm 
 - Tìm kiếm theo từ khoá
 - Tìm kiếm sách
 
+## Vẽ sơ đồ use case tổng quát
+Dựa vào 4 nhóm (hoặc gói) trên, ta sẽ có 04 sơ đồ use case tổng quát tương ứng với mỗi nhóm. Hình bên dưới minh hoạ một sơ đồ use case tổng quát cho nhóm Chung. Các bạn làm tương tự với ba gói còn lại
+
+![Use Case Tổng quát](/images/Use-case-tong-quat.png)
+
+Có một điểm lưu ý trong sơ đồ use case tổng quát trên đó là sự vắng mặt của các đường kết nối gữa các tác nhân với use case hoặc giữa các use case với nhau. Điều này là do (theo cách tiếp cận của ICONIX) những đường kết nối này không quá quan trọng bằng việc viết ĐẶC TẢ use case - cái mà chúng ta sẽ dùng rất nhiều khi xây dựng sơ đồ mạnh mẽ (robustness diagram) và sơ đồ trình tự (sequence diagram)
