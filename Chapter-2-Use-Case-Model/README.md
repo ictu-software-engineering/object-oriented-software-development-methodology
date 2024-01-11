@@ -160,7 +160,7 @@ ALTERNATE COURSE:
 ## Tại sao không sử dụng use case template?
 Theo lập luận của tác giả, các template viết kịch bản use case trước đây quá dài, ví dụ:
 
-``
+```
 <the name should be the goal as a short active verb phrase>
 Context of use: <a longer statement of the goal, if needed, its normal occurrence conditions>
 Scope: <design scope, what system is being considered black-box under design> Level: <one of: summary, user-goal, subfunction>
@@ -177,4 +177,4 @@ Extensions:
 Technology & Data Variations List:
 <put here the variations that will cause eventual bifurcation in the scenario>
 
-``
+```
