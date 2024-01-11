@@ -200,3 +200,8 @@ Related Information:
 <whatever your project needs for additional information>
 
 ```
+
+Chúng ta coi mẫu này thật kinh khủng vì mặc dù về mặt lý thuyết nó tao nhã ở chỗ nó bao gồm toàn diện mọi thứ bạn có thể muốn thảo luận cùng với use case, nhưng trên thực tế, nếu bạn yêu cầu nhóm của mình “điền vào biểu mẫu dài” kịch bản bẫu mẫu, họ sẽ nhanh chóng phát hiện ra rằng
+1. Họ đang lãng phí thời gian.
+2. Lãng phí thời gian sẽ khiến toàn bộ quá trình mô hình hóa bị tắt.
+3. Họ có thể điền vào biểu mẫu mà không cần tập trung vào các phần quan trọng (basic course và alternate course) của use case và sẽ không ai biết sự khác biệt
