@@ -162,19 +162,41 @@ Theo lập luận của tác giả, các template viết kịch bản use case t
 
 ```
 <the name should be the goal as a short active verb phrase>
+
 Context of use: <a longer statement of the goal, if needed, its normal occurrence conditions>
+
 Scope: <design scope, what system is being considered black-box under design> Level: <one of: summary, user-goal, subfunction>
+
 Primary Actor: <a role name for the primary actor, or description> Stakeholders & Interests: <list of stakeholders and key interests in the use case> Precondition: <what we expect is already the state of the world>
+
 Minimal Guarantees: <how the interests are protected under all exits> Success Guarantees: <the state of the world if goal succeeds>
+
 Trigger: <what starts the use case, may be time event>
+
 Main Success Scenario:
+
 <put here the steps of the scenario from trigger to goal delivery and any cleanup after>
+
 <step #> <action description>
+
 Extensions:
+
 <put here there [sic] extensions, one at a time, each referring to the step of the main scenario>
+
 <step altered> <condition>: <action or sub use case>
+
 <step altered> <condition>: <action or sub use case>
+
 Technology & Data Variations List:
+
 <put here the variations that will cause eventual bifurcation in the scenario>
+
+<step or variation #> <list of variations>
+
+<step or variation #> <list of variations>
+
+Related Information:
+
+<whatever your project needs for additional information>
 
 ```
