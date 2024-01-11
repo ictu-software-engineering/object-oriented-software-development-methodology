@@ -138,3 +138,43 @@ ALTERNATE COURSE:
 
 - Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
 ```
+
+## Kịch bản đầy đủ của use case
+Kết hợp 02 thông tin basic course và alternate course ta có kịch bản đầy đủ của use case Viết đánh giá của khách hàng
+
+```
+BASIC COURSE
+
+Khách hàng nhấp vào nút Viết đánh giá cho cuốn sách hiện đang được xem và hệ thống hiển thị màn hình Viết đánh giá. Khách hàng nhập Đánh giá sách, xếp hạng Sách trên 5 sao và nhấp vào nút Gửi. Hệ thống đảm bảo rằng Đánh giá sách không quá dài hay quá ngắn và Xếp hạng sách nằm trong khoảng từ một đến năm sao. Sau đó, hệ thống hiển thị màn hình xác nhận và đánh giá sẽ được gửi đến Người kiểm duyệt
+
+
+ALTERNATE COURSE:
+
+- Người dùng chưa đăng nhập: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
+
+- Người dùng nhập đánh giá quá dài (văn bản > 1MB): Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
+
+- Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
+```
+
+## Tại sao không sử dụng use case template?
+Theo lập luận của tác giả, các template viết kịch bản use case trước đây quá dài, ví dụ:
+
+``
+<the name should be the goal as a short active verb phrase>
+Context of use: <a longer statement of the goal, if needed, its normal occurrence conditions>
+Scope: <design scope, what system is being considered black-box under design> Level: <one of: summary, user-goal, subfunction>
+Primary Actor: <a role name for the primary actor, or description> Stakeholders & Interests: <list of stakeholders and key interests in the use case> Precondition: <what we expect is already the state of the world>
+Minimal Guarantees: <how the interests are protected under all exits> Success Guarantees: <the state of the world if goal succeeds>
+Trigger: <what starts the use case, may be time event>
+Main Success Scenario:
+<put here the steps of the scenario from trigger to goal delivery and any cleanup after>
+<step #> <action description>
+Extensions:
+<put here there [sic] extensions, one at a time, each referring to the step of the main scenario>
+<step altered> <condition>: <action or sub use case>
+<step altered> <condition>: <action or sub use case>
+Technology & Data Variations List:
+<put here the variations that will cause eventual bifurcation in the scenario>
+
+``
