@@ -132,9 +132,9 @@ Trong kịch bản Viết bài đánh giá của người đọc, tất cả n�
 ``` 
 ALTERNATE COURSE:
 
-Người dùng chưa đăng nhập: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
+**Người dùng chưa đăng nhập**: Trước tiên, người dùng được đưa đến màn hình Đăng nhập, sau đó đến màn hình Viết đánh giá sau khi đăng nhập.
 
-Người dùng nhập đánh giá quá dài (văn bản > 1MB): Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
+**Người dùng nhập đánh giá quá dài (văn bản > 1MB)**: Hệ thống từ chối đánh giá và phản hồi bằng thông báo giải thích lý do đánh giá bị từ chối.
 
-Đánh giá quá ngắn (< 10 ký tự): Hệ thống từ chối đánh giá
+**Đánh giá quá ngắn (< 10 ký tự)**: Hệ thống từ chối đánh giá
 ```
