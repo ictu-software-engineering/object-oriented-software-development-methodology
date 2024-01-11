@@ -30,7 +30,19 @@ ALTERNATE COURSE:
 ```
 ## Tại sao viết use case lại sau mô hình miền?
 
-Use case được viết trong ngữ cảnh của mô hình miền—nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) đi vào mô hình miền cũng phải được sử dụng trực tiếp trong đặc tả use case
+Use case được viết trong ngữ cảnh của mô hình miền—nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) đi vào mô hình miền cũng phải được sử dụng trực tiếp trong đặc tả use case. 
+
+Ví dụ sau minh hoạ viết kịch bản use case mà không dựa vào mô hình miền:
+``
+Người dùng chọn một tiêu đề sách và thêm nó vào danh sách sách của mình để lưu lại sau này. Hệ thống hiển thị một trang có danh sách cập nhật đồng thời cũng hiển thị danh sách các đầu sách trong giỏ hàng của người dùng, sẵn sàng để thanh toán.
+``
+Mặc dù kịch bản này có vẻ rõ ràng nhưng nó lại là điểm nóng của sự mơ hồ. Trong các use case tiếp theo, “Danh sách sách sẽ được lưu để sử dụng sau” có thể được rút ngắn thành “danh sách sách” hoặc “sách đã lưu”, cả hai đều có thể được hiểu là có ý nghĩa hoàn toàn khác.
+
+Đây là văn bản đã sửa (các phần đã sửa được in đậm):
+
+``
+Người dùng chọn Sách và thêm nó vào Danh sách mong muốn của mình. Hệ thống hiển thị trang có danh sách cập nhật đồng thời hiển thị Giỏ hàng của người dùng.
+``
 
 Cách tiếp cận ICONIX giả định rằng mô hình miền ban đầu là sai và đưa ra cách cải thiện dần dần mô hình đó khi ta phân tích các use case. Đó là lý do tại sao ta chỉ nên dành tối đa vài giờ cho việc lập mô hình miền trước khi bắt đầu lập mô hình use case. Khi ta viết các use case, nếu danh từ chưa có trong "từ điển" thì ta phải cập nhật từ điển. Chúng ta luôn phải đảm bảo rằng danh từ/cụm danh từ dùng trong đặc tả use case phải lấy từ "từ điển" - mô hình miền ra.
 
