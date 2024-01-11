@@ -35,3 +35,56 @@ Trong quá trình thiết kế sơ bộ, mô hình miền biến thành mô hìn
 
 ## Sắp xếp các use cases thành các gói (Packages)
 Các gói về cơ bản là các thùng chứa có thứ bậc có thể chứa hầu hết mọi cấu trúc UML, bao gồm cả các gói khác. Nếu bạn là lập trình viên Java, các gói UML không hoàn toàn khác với các gói Java, ở chỗ chúng cho phép bạn chia công việc của mình thành các khu vực khác nhau.
+
+Chúng ta sẽ chia use case thành 04 nhóm: chúng, mua hàng, admin và tìm kiếm. Lưu ý: Đây chỉ là một trong các cách nhóm - thực tế có thể có cách nhóm khác.
+1. Chung
+- Thêm sản phẩm vào Danh sách mong muốn
+- Huỷ Đơn hàng
+- Cập nhật Giỏ hàng
+- Đăng nhập
+- Đăng xuất
+- Tạo Tài khoản
+- Trả sách
+- Xem Lịch sử đơn hàng
+
+2. Mua sắm
+- Khách hàng (tác nhân)
+- Thêm sản phẩm vào giỏ hàng
+- Thanh toán
+- Cập nhật Giỏ hàng
+- Nhập Địa chỉ
+- Thanh toán qua Thẻ tín dụng
+- Thanh toán qua Đơn đặt hàng
+- Thanh toán bằng Séc
+- Xoá sản phẩm ra khỏi Giỏ hàng
+- Xem Sách đề xuất
+- Xem Đánh giá
+- Viết đánh giá khách hàng
+
+3. Quản trị (admin)
++ Dịch vụ chăm sóc khách hàng
++ Người bán
++ Nhân viên chuyển hàng
++ Nhân viên Quản trị web
+
+- Thêm mới sách vào Danh mục
+- Thêm đánh giá biên tập
+- Thêm sách ngoài hệ thống vào Danh mục
+- Gửi đơn hàng
+- Quản trị Đánh giá của khách hàng
+- Quản lý Hàng tồn kho
+- Đặt sách từ Nhà xuất bản
+- Xử lý Hoàn tiền
+- Xoá sách khỏi danh mục
+- Xoá sách ngoài hệ thống khỏi danh mục
+- Trả lời câu hỏi
+- Mở khoá tài khoản bị khoá
+
+4. Tìm kiếm
+- Tìm kiếm nâng cao
+- Tìm kiếm theo tác giả
+- Tìm kiếm theo tiêu đề
+- Tìm kiếm theo danh mục
+- Tìm kiếm theo từ khoá
+- Tìm kiếm sách
+
