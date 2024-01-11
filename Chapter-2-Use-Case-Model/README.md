@@ -62,7 +62,7 @@ Chúng ta sẽ chia use case thành 04 nhóm: chúng, mua hàng, admin và tìm 
 - Xoá sản phẩm ra khỏi Giỏ hàng
 - Xem Sách đề xuất
 - Xem Đánh giá
-- Viết đánh giá khách hàng
+- Viết đánh giá sách
 
 3. Quản trị (admin)
 + Dịch vụ chăm sóc khách hàng
@@ -97,3 +97,13 @@ Dựa vào 4 nhóm (hoặc gói) trên, ta sẽ có 04 sơ đồ use case tổng
 ![Use Case Tổng quát](/images/Use-case-tong-quat.png)
 
 Có một điểm lưu ý trong sơ đồ use case tổng quát trên đó là sự vắng mặt của các đường kết nối gữa các tác nhân với use case hoặc giữa các use case với nhau. Điều này là do (theo cách tiếp cận của ICONIX) những đường kết nối này không quá quan trọng bằng việc viết ĐẶC TẢ use case - cái mà chúng ta sẽ dùng rất nhiều khi xây dựng sơ đồ mạnh mẽ (robustness diagram) và sơ đồ trình tự (sequence diagram)
+
+## Viết đặc tả use case
+Chúng ta sẽ bắt đầu viết đặc tả cho use case "Viết đánh giá sách" (Write Review). Mở lại sơ đồ miền ở Chương 1, chúng ta sẽ thấy có 02 loại đánh giá: Đánh giá từ độc giả và đánh giá từ ban biên tập 
+
+Chúng ta bắt đầu bằng những hành động đơn giản đầu tiên:
+
+``
+Khách hàng nhập đánh giá về sách đã chọn, cho điểm và gửi. 
+Đánh giá được gửi đến người kiểm duyệt.
+``
