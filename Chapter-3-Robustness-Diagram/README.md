@@ -22,8 +22,14 @@ Sẽ rất hữu ích khi coi các đối tượng biên và đối tượng th�
 - Danh từ không thể nói chuyện với danh từ khác (Boundary object không nói chuyện được với Entity object)
 - Động từ có thể nói chuyện với động từ khác.
 
-## Hướng dẫn vẽ sơ đồ độ bền
-### Copy kịch bản use case vào sơ đồ độ bền
+## Hướng dẫn vẽ sơ đồ mạnh mẽ
+### Copy kịch bản use case vào sơ đồ mạnh mẽ
+Làm điều này thực sự giúp củng cố thực tế rằng ta đang vẽ một bức tranh khách quan về các sự kiện được mô tả trong use case. Ngoài ra, ta sẽ xử lý từng câu trong use case khi vẽ sơ đồ, vì vậy, sẽ rất hữu ích khi có kịch bản bên cạnh. Hình bên dưới minh hoạ ví dụ về việc copy & paste kịch bản use case vào sơ đồ mạnh mẽ.
+
+![Robustness Copy & Paste](/images/robustness-copy-paste.png)
+
+
+
 
 
 
