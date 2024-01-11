@@ -28,6 +28,31 @@ Làm điều này thực sự giúp củng cố thực tế rằng ta đang vẽ
 
 ![Robustness Copy & Paste](/images/robustness-copy-paste.png)
 
+### Lấy các lớp thực thể từ Mô hình miền và thêm bất kỳ lớp nào còn thiếu
+
+Hầu hết các thực thể trên sơ đồ độ mạnh mẽ sẽ đến từ mô hình miền. Tuy nhiên, vì ta đã giới hạn nỗ lực lập mô hình miền ban đầu trong vài giờ nên việc ta có thể thiếu một số lớp miền là điều tự nhiên. Khi ta đang vẽ sơ đồ mạnh mẽ, hãy thêm các lớp còn thiếu vào mô hình miền.
+
+Quy trình ICONIX giả định rằng mô hình miền ban đầu sẽ không đầy đủ và hy vọng rằng các đối tượng bị thiếu sẽ được phát hiện trong quá trình phân tích mạnh mẽ.
+
+### Chuẩn bị tinh thần cập nhật lại kịch bản use case khi phân tích sơ đồ mạnh mẽ.
+Kinh nghiệm của tác giả đã chỉ ra rằng các use case ở bản phác thảo đầu tiên có xu hướng thể hiện các đặc điểm sau: chúng thường mơ hồ, không đầy đủ và không chính xác. Không có gì ngạc nhiên khi rất nhiều dự án đã phải vật lộn với các use case khi không có kỹ thuật phân biệt rõ ràng như phân tích mạnh mẽ. Loại bỏ sự mơ hồ khỏi các use case là một trong những mục đích chính của kỹ thuật này.
+
+“Điều kỳ diệu” của kỹ thuật này trên thực tế là công việc khó khăn: việc vẽ một sơ đồ mạnh mẽ buộc ta phải giải quyết từng use case một. Hành động đơn giản này hầu như luôn gây ra các lỗi bề mặt trong kịch bản use case với bản nháp đầu tiên, vì vậy điều quan trọng là phải viết lại kịch bản use case song song với việc vẽ sơ đồ độ mạnh mẽ.
+
+### Tạo đối tượng biên cho mỗi màn hình
+Vẽ sơ đồ mạnh mẽ có thể giúp việc đặt tên rõ ràng. Nếu ta thấy các đối tượng biên được gắn nhãn “trang web” trên sơ đồ độ mạnh mẽ, hãy dừng lại, tìm ra tên của trang và sử dụng tên thật.
+
+### Không cần lo lắng về hướng mũi tên trong sơ đồ mạnh mẽ
+Hãy nhớ rằng sơ đồ mạnh mẽ có hai nhiệm vụ chính:
+- Làm rõ kịch bản use case
+- Khám phá các đối tượng còn thiếu trong mô hình miền
+
+Hướng mà các đầu mũi tên chỉ trên biểu đồ mạnh mẽ không giúp ích gì cho các mục tiêu này. Nói một cách chính thức, các mũi tên trên sơ đồ mạnh mẽ thể hiện các liên kết truyền thông. Ta có thể hiển thị luồng dữ liệu hoặc luồng điều khiển và trong trường hợp chúng ta chưa đề cập đến nó trước đó thì hướng của mũi tên không quan trọng. Hình dưới minh hoạ sơ đồ mạnh mẽ dạng đầy đủ. Chú ý: Màu đỏ là phần alternate course, màu còn lại trong basic course
+
+![Login đầy đủ](/images/login-full.png)
+
+
+
 
 
 
