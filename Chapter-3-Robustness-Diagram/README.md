@@ -7,6 +7,10 @@
 
 Có một điểm đáng chú ý trong phần này là tại sao chúng ta cần phải biến chữ thành hình để làm gì? Đó chính là việc liên kết các use case đến đối tượng. Chúng được phân loại thành các đối tượng ranh giới (biên), đối tượng thực thể (entity) và bộ điều khiển (controller - thường giống chức năng hơn là đối tượng).
 
+Sơ đồ mạnh mẽ sẽ được dùng làm đầu vào cho 2 sơ đồ khác: 1) cập nhật lại sơ đồ miền (nếu thiếu), 2) bổ sung dần các thuộc tính vào sơ đồ miền cập nhật (sau khi bổ sung đầy đủ nó sẽ là sơ đồ lớp)
+
+Nên nhớ rằng: Để viết được kịch bản use case chúng ta dựa rất nhiều vào GUI prototype (hoặc HTML template), những thông tin để cho người dùng CHỌN, NHẬP, hay nói cách khác là các thẻ html (HTML elements) chính là các ứng viên cho thuộc tính. Phần viết kịch bản cho use case có một ràng buộc đối với sơ đồ miền, đó là các đối tượng (danh từ/cụm danh từ) trong đặc tả use case phải lấy từ sơ đồ miền. 
+
 Sơ đồ mạnh mẽ là một hình ảnh khách quan của một use case. Sơ đồ mạnh mẽ và kịch bản use case phải khớp một cách chính xác, vì vậy sơ đồ độ mạnh mẽ buộc phải gắn kịch bản use case với các đối tượng. Điều này cho phép ta thiết kế hướng đối tượng từ các use case.
 
 Việc vẽ sơ đồ mạnh mẽ đảm bảo rằng use case được viết trong ngữ cảnh của mô hình miền — nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) trong mô hình miền phải được sử dụng trực tiếp trong kịch bản use case.
