@@ -1,14 +1,18 @@
 # Sơ đồ mạnh mẽ/độ bền (robustness diagram)
 ![Robustness Diagram](/images/Robustness-Analysis.png)
 
-Để chuyển từ các use cases sang thiết kế chi tiết (và sau đó là viết mã), ta cần liên kết các use cases với các đối tượng. Kỹ thuật mà chúng ta mô tả trong chương này, phân tích độ bền, giúp ta thu hẹp khoảng cách từ phân tích đến thiết kế. Tóm lại, đó là một cách phân tích kịch bản use cases và xác định tập hợp đối tượng được đoán đầu tiên cho từng use cases. Chúng được phân loại thành các đối tượng ranh giới (biên), đối tượng thực thể (entity) và bộ điều khiển (controller - thường giống chức năng hơn là đối tượng).
+**Nói một cách ngắn gọn: Kịch bản use case là dạng chữ, còn sơ đồ mạnh mẽ ở dạng hình. Công việc của chúng ta là biến chữ thành hình.**
+
+Để biến chữ thành hình, chúng ta đọc từng câu trong kịch bản use case, sau đó biểu diễn câu đó dưới dạng hình. Nếu không thể biểu diễn dưới dạng hình, có nghĩa là việc diễn đạt câu đang gặp vấn đề chúng ta cần cập nhât lại kịch bản use case.
+
+Có một điểm đáng chú ý trong phần này là tại sao chúng ta cần phải biến chữ thành hình để làm gì? Đó chính là việc liên kết các use case đến đối tượng. Chúng được phân loại thành các đối tượng ranh giới (biên), đối tượng thực thể (entity) và bộ điều khiển (controller - thường giống chức năng hơn là đối tượng).
 
 Sơ đồ mạnh mẽ là một hình ảnh khách quan của một use case. Sơ đồ mạnh mẽ và kịch bản use case phải khớp một cách chính xác, vì vậy sơ đồ độ mạnh mẽ buộc phải gắn kịch bản use case với các đối tượng. Điều này cho phép ta thiết kế hướng đối tượng từ các use case.
 
 Việc vẽ sơ đồ mạnh mẽ đảm bảo rằng use case được viết trong ngữ cảnh của mô hình miền — nghĩa là, tất cả các thuật ngữ (danh từ và cụm danh từ) trong mô hình miền phải được sử dụng trực tiếp trong kịch bản use case.
 
 ## Giải phẫu sơ đồ mạnh mẽ.
-Sơ đồ mạnh mẽ phần nào là sự kết hợp giữa sơ đồ lớp và sơ đồ hoạt động. Đó là sự thể hiện bằng hình ảnh của hành vi được mô tả bởi một use case, hiển thị cả các lớp tham gia và hành vi phần mềm, mặc dù nó cố tình tránh hiển thị lớp nào chịu trách nhiệm cho các phần hành vi nào. Mỗi lớp được thể hiện bằng một biểu tượng đồ họa kiểu lập thể (xem hình dưới). Tuy nhiên, sơ đồ mạnh mẽ trông giống sơ đồ hoạt động hơn, theo nghĩa là một đối tượng “giao tiếp” với đối tượng tiếp theo. Luồng hành động này được thể hiện bằng một đường nối giữa hai đối tượng đang giao tiếp với nhau.
+Sơ đồ mạnh mẽ phần nào là sự kết hợp giữa **sơ đồ lớp** và **sơ đồ hoạt động**. Đó là sự thể hiện bằng hình ảnh của hành vi được mô tả bởi một use case, hiển thị cả các lớp tham gia và hành vi phần mềm, mặc dù nó cố tình tránh hiển thị lớp nào chịu trách nhiệm cho các phần hành vi nào. Mỗi lớp được thể hiện bằng một biểu tượng đồ họa kiểu lập thể (xem hình dưới). Tuy nhiên, sơ đồ mạnh mẽ trông giống sơ đồ hoạt động hơn, theo nghĩa là một đối tượng “giao tiếp” với đối tượng tiếp theo. Luồng hành động này được thể hiện bằng một đường nối giữa hai đối tượng đang giao tiếp với nhau.
 
 ![Robustness Notations](/images/Robustness-notations.png)
 
@@ -50,14 +54,6 @@ Hãy nhớ rằng sơ đồ mạnh mẽ có hai nhiệm vụ chính:
 Hướng mà các đầu mũi tên chỉ trên biểu đồ mạnh mẽ không giúp ích gì cho các mục tiêu này. Nói một cách chính thức, các mũi tên trên sơ đồ mạnh mẽ thể hiện các liên kết truyền thông. Ta có thể hiển thị luồng dữ liệu hoặc luồng điều khiển và trong trường hợp chúng ta chưa đề cập đến nó trước đó thì hướng của mũi tên không quan trọng. Hình dưới minh hoạ sơ đồ mạnh mẽ dạng đầy đủ. Chú ý: Màu đỏ là phần alternate course, màu còn lại trong basic course
 
 ![Login đầy đủ](/images/login-full.png)
-
-
-
-
-
-
-
-
 
 ## Công cụ vẽ Robustness Diagram
 [Visual Paradigm - Robustness Diagram templates](https://online.visual-paradigm.com/diagrams/templates/robustness-diagram/customer-creation-process/)
