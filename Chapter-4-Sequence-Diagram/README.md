@@ -25,3 +25,8 @@ Chúng ta có hàng loạt thuật ngữ đều ám chỉ một thứ nhưng có
 ``
 Messages, methods, functions, operations, verbs, and controllers—these are all basically different versions of the same thing: the behavior that you allocate to a class (via sequence diagramming) and eventually implement and test.
 ``
+
+# Các bước vẽ sơ đồ trình tự
+Chúng ta có 04 bước để vẽ sơ đồ trình tự trong đó 03/4 bước đầu tiên chỉ đơn giản là copy & paste, bước số 04 là chuyển từ controller ==> message. Xem mô tả như hình dưới đây
+
+![Sequence Diagram - Steps](/images/Steps-sequence-diagram.png)
