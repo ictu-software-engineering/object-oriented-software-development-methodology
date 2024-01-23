@@ -39,6 +39,7 @@ Bản báo cáo sẽ gồm những nội dung sau:
  Phần này chỉ cần liệt kê các yêu cầu chức năng và phi chức năng. Chúng ta không cần đi vào mức quá chi tiết: ví dụ xem trong trang 30 của tài liệu Use Case Driven Modeling with UML
 
 2. [Sơ đồ miền](/Chapter-1-Domain-Model/README.md)
+
 Phần này cần trình bày đầy đủ các bước và phương pháp để xây dựng sơ đồ miền. Phân tích đầy đủ các bước từ trang 30 đến trang 38. Đây là bước đầu tiên để điền vào ngăn số 1 trong sơ đồ lớp.
 
 3. Viết [Use Case](/Chapter-2-Use-Case-Model/README.md)
