@@ -52,6 +52,6 @@ Lưu ý: Thông tin từ sơ đồ mạnh mẽ sẽ được sử dụng để �
 Sơ đồ mạnh mẽ và sơ đồ trình tự gần như là tương tự nhau, khi ta copy 3/4 thành phần của sơ đồ mạnh mẽ vào sơ đồ trình tự. Phần còn lại (controller) sẽ chuyển thành thông điệp
 6. Sơ đồ lớp
 Đây là sơ đồ cuối cùng mà chúng ta cần trong học phần này với 03 thông tin quan trọng
-1. Tên lớp lấy từ sơ đồ miền
-2. Thuộc tính lấy từ sơ đồ mạnh mẽ
-3. Phương thức lấy từ sơ đồ trình tự
+- Tên lớp lấy từ sơ đồ miền
+- Thuộc tính lấy từ sơ đồ mạnh mẽ
+- Phương thức lấy từ sơ đồ trình tự
