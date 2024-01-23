@@ -1,5 +1,5 @@
 # Phương pháp phát triển phần mềm hướng đối tượng
-Các tài liệu về phương pháp phát triển phần mềm hướng đối tượng tương đối nhiều, dài, ở mức trừu tượng cao và khó hiểu đặc biệt là đối với những người mới bắt đầu nghiên cứu về vấn đề này. Cái chúng ta thực sự cần ở thời điểm ban đầu đó là một thiết kế tối giản, chạy được để giúp cho chúng ta hình dung bức tranh tổng thể của hệ thống từ bước thiết kế đến lập trình sẽ như thế nào? tại sao lập trình viên chỉ cần nhìn vào bản thiết kế có thể code được. Khoá học này sẽ đồng hành cùng các bạn để vén bức màn đó. 
+Các tài liệu về phương pháp phát triển phần mềm hướng đối tượng tương đối nhiều, dài, ở mức trừu tượng cao và khó hiểu đặc biệt là đối với những người mới bắt đầu nghiên cứu về vấn đề này. Cái chúng ta thực sự cần ở thời điểm ban đầu đó là một thiết kế tối giản, chạy được để giúp cho chúng ta hình dung bức tranh tổng thể của hệ thống từ bước thiết kế đến lập trình sẽ như thế nào? tại sao lập trình viên chỉ cần nhìn vào bản thiết kế có thể code được. 
 
 ## Quy trình phát triển phần mềm
 Trước khi đi chi tiết vào một vấn đề chúng ta cần phải nắm được các bước cụ thể mà chúng ta định làm là như thế nào? đầu vào chúng ta có gì ở mỗi bước và đầu ra chúng ta cung cấp cho các bước tiếp theo là gì. Có nhiều quy trình phát triển phần mềm như quy trình thác nước, xoắn ốc, lặp, gia tăng, Agile, RUP...Mỗi mô hình đều có những ưu điểm và nhược điểm riêng, không mô hình nào là "kinh thánh" chung. Khoá học này sẽ bám theo quy trình mà ít được nhắc đến trong các bài viết phổ biến. Đó là quy trình ICONIX.
@@ -67,4 +67,4 @@ Sơ đồ mạnh mẽ và sơ đồ trình tự gần như là tương tự nhau
 
 7. Code demo (Optional)
 
-Phần này là điểm khuyến khích, không yêu cầu sinh viên phải xây dựng hệ thống đầy đủ. Chỉ cần sinh viên biết được chuyển từ sơ đồ lớp sang code như thế nào. Sinh viên xem [Vide chuyển từ sơ đồ lớp sang code](https://youtu.be/pAAFXL_tWQ8?si=e4C7CaaD9joXNJG_) để làm tương tự, copy code do hệ thống tự sinh vào báo cáo là được.
+Phần này là điểm khuyến khích, không yêu cầu sinh viên phải xây dựng hệ thống đầy đủ. Chỉ cần sinh viên biết được chuyển từ sơ đồ lớp sang code như thế nào. Sinh viên xem [Video chuyển từ sơ đồ lớp sang code](https://youtu.be/pAAFXL_tWQ8?si=e4C7CaaD9joXNJG_) để làm tương tự, copy code do hệ thống tự sinh vào báo cáo là được.
