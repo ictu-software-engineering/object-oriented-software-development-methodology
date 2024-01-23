@@ -56,3 +56,5 @@ Sơ đồ mạnh mẽ và sơ đồ trình tự gần như là tương tự nhau
 - Tên lớp lấy từ sơ đồ miền
 - Thuộc tính lấy từ sơ đồ mạnh mẽ
 - Phương thức lấy từ sơ đồ trình tự
+7. Code demo (Optional)
+Phần này là điểm khuyến khích, không yêu cầu sinh viên phải xây dựng hệ thống đầy đủ. Chỉ cần sinh viên biết được chuyển từ sơ đồ lớp sang code như thế nào. Sinh viên xem [Vide chuyển từ sơ đồ lớp sang code](https://youtu.be/pAAFXL_tWQ8?si=e4C7CaaD9joXNJG_) để làm tương tự, copy code do hệ thống tự sinh vào báo cáo là được.
