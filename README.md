@@ -31,6 +31,7 @@ Như vậy đầu vào của chúng ta bao gồm 02 thứ: yêu cầu hệ thố
 
 # Tài liệu tham khảo
 - [Công cụ vẽ visual-paradigm.com](visual-paradigm.com)
+- [Tài liệu giảng dạy](https://drive.google.com/file/d/13uSf_5nDbEi86nC8fNb_SODEgC7evRYh/view?usp=sharing)
 # Form mẫu báo cáo
 Bản báo cáo sẽ gồm những nội dung sau:
 1. Yêu cầu hệ thống
