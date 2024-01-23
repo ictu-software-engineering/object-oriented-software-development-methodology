@@ -1,0 +1,2 @@
+# Chuyển từ sơ đồ lớp sang code
+Phần này là điểm khuyến khích, không yêu cầu sinh viên phải xây dựng hệ thống đầy đủ. Chỉ cần sinh viên biết được chuyển từ sơ đồ lớp sang code như thế nào. Sinh viên xem [Video chuyển từ sơ đồ lớp sang code](https://youtu.be/pAAFXL_tWQ8?si=e4C7CaaD9joXNJG_) để làm tương tự, copy code do hệ thống tự sinh vào báo cáo là được.
