@@ -30,3 +30,9 @@ Messages, methods, functions, operations, verbs, and controllers—these are all
 Chúng ta có 04 bước để vẽ sơ đồ trình tự trong đó 03/4 bước đầu tiên chỉ đơn giản là copy & paste, bước số 04 là chuyển từ controller ==> message. Xem mô tả như hình dưới đây
 
 ![Sequence Diagram - Steps](/images/Steps-sequence-diagram.png)
+
+Các bước có thể tóm tắt như sau:
+1. Bước 1: Copy use case text vào sơ đồ trình tự (trống) như được **minh hoạ trong trang 198**
+2. Bước 3: Copy các đối tượng thực thể từ sơ đồ mạnh mẽ (robustness diagram) vào sơ đồ trình tự như được **minh hoạ trong trang 200**
+3. Bước 3: Copy các đối tượng biên và tác nhân từ sơ đồ mạnh mẽ (robustness diagram) vào sơ đồ trình tự như được **minh hoạ trong trang 202**
+4. Bước 4: Chuyển controller thành các message và lắp vào sơ đồ trình tự như được **minh hoạ trong trang 207**
