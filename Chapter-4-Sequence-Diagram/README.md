@@ -21,3 +21,6 @@ Chúng ta có hàng loạt thuật ngữ đều ám chỉ một thứ nhưng có
 1. Khi đang nói chuyện về yêu cầu hệ thống, chúng ta dùng các thuật ngữ về danh từ (noun) và động từ (verb). Lúc này ngăn số 3 của sơ đồ lớp nó có tên là "động từ"
 2. Khi chúng ta nói chuyện về sơ đồ mạnh mẽ thì nó có tên là controller
 3. Khi chúng ta nói chuyện về sơ đồ trình tự thì nó có tên là message
+```
+Messages, methods, functions, operations, verbs, and controllers—these are all basically different versions of the same thing: the behavior that you allocate to a class (via sequence diagramming) and even- tually implement and test.
+```
