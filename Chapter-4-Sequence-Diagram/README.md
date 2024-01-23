@@ -23,5 +23,5 @@ Chúng ta có hàng loạt thuật ngữ đều ám chỉ một thứ nhưng có
 3. Khi chúng ta nói chuyện về sơ đồ trình tự thì nó có tên là message
 
 ``
-Messages, methods, functions, operations, verbs, and controllers—these are all basically different versions of the same thing: the behavior that you allocate to a class (via sequence diagramming) and even- tually implement and test.
+Messages, methods, functions, operations, verbs, and controllers—these are all basically different versions of the same thing: the behavior that you allocate to a class (via sequence diagramming) and eventually implement and test.
 ``
