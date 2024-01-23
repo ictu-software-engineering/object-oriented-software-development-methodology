@@ -35,10 +35,13 @@ Như vậy đầu vào của chúng ta bao gồm 02 thứ: yêu cầu hệ thố
 # Form mẫu báo cáo
 Bản báo cáo sẽ gồm những nội dung sau:
 1. Yêu cầu hệ thống
+ 
  Phần này chỉ cần liệt kê các yêu cầu chức năng và phi chức năng. Chúng ta không cần đi vào mức quá chi tiết: ví dụ xem trong trang 30 của tài liệu Use Case Driven Modeling with UML
+
 2. Sơ đồ miền
 Phần này cần trình bày đầy đủ các bước và phương pháp để xây dựng sơ đồ miền. Phân tích đầy đủ các bước từ trang 30 đến trang 38. Đây là bước đầu tiên để điền vào ngăn số 1 trong sơ đồ lớp
 3. Viết use case
+
 Trong phần này sẽ chia thành 2 mục nhỏ. Sơ đồ use case tổng quát và kịch bản use case. 
 - Đối với sơ đồ use case tổng quát bám theo ví dụ mẫu trong trang 63. Bản chất là nhóm các use case thành các gói (package) và vẽ sơ đồ use case tổng quát cho các gói đó
 - Đối với kịch bản use case: Bám theo ví dụ mẫu trang 73 sau đó nhân bản ra cho các use case còn lại
@@ -46,18 +49,22 @@ Trong phần này sẽ chia thành 2 mục nhỏ. Sơ đồ use case tổng quá
 Lưu ý: Trọng số cho phần kịch bản use case sẽ cao hơn vì nó sẽ được sử dụng để vẽ sơ đồ mạnh mẽ và sơ đồ trình tự
 
 4. Sơ đồ mạnh mẽ
+
 Đối với mỗi use case cần có sơ đồ mạnh mẽ tương ứng. Về bản chất là chuyển từ chữ (kịch bản) sang hình (sơ đồ). Giữa kịch bản và sơ đồ phải khớp nhau. Không khớp thì sửa (2 chiều) cho khớp. 
 
 Lưu ý: Thông tin từ sơ đồ mạnh mẽ sẽ được sử dụng để điền vào ngăn số 2 (thuộc tính) trong sơ đồ lớp
 
 5. Sơ đồ trình tự
+
 Sơ đồ mạnh mẽ và sơ đồ trình tự gần như là tương tự nhau, khi ta copy 3/4 thành phần của sơ đồ mạnh mẽ vào sơ đồ trình tự. Phần còn lại (controller) sẽ chuyển thành thông điệp
 
 6. Sơ đồ lớp
+
 Đây là sơ đồ cuối cùng mà chúng ta cần trong học phần này với 03 thông tin quan trọng
 - Tên lớp lấy từ sơ đồ miền
 - Thuộc tính lấy từ sơ đồ mạnh mẽ
 - Phương thức lấy từ sơ đồ trình tự
 
 7. Code demo (Optional)
+
 Phần này là điểm khuyến khích, không yêu cầu sinh viên phải xây dựng hệ thống đầy đủ. Chỉ cần sinh viên biết được chuyển từ sơ đồ lớp sang code như thế nào. Sinh viên xem [Vide chuyển từ sơ đồ lớp sang code](https://youtu.be/pAAFXL_tWQ8?si=e4C7CaaD9joXNJG_) để làm tương tự, copy code do hệ thống tự sinh vào báo cáo là được.
